@@ -1,0 +1,147 @@
+<div
+  class="select-wrapper"
+  [ngClass]="embeddedToParent ? 'with-filter-chip' : ''">
+  <label class="select-title" *ngIf="title && !isMaterial">{{ title }}</label>
+  <ng-select
+    #ctSingleSelect
+    *ngIf="singleSelectionMode"
+    [ngClass]="{
+      legacy: fieldAppearance === 'legacy',
+      standard: fieldAppearance === 'standard',
+      fill: fieldAppearance === 'fill',
+      outline: fieldAppearance === 'outline',
+      'dark-theme': withDarkTheme,
+      'light-theme': !withDarkTheme,
+      'non-material': !isMaterial
+    }"
+    [placeholder]="placeholder"
+    [title]="title"
+    [items]="selectorList"
+    [bindLabel]="visibleProperty"
+    [clearSearchOnAdd]="clearSearchOnAdd"
+    [appendTo]="appendTo ? 'body' : appendTo"
+    [multiple]="!singleSelectionMode"
+    [searchable]="allowSearch"
+    [clearable]="allowClear"
+    [maxSelectedItems]="multiSelectionLimit"
+    [closeOnSelect]="true"
+    [isError]="isError"
+    [isMaterial]="isMaterial"
+    [(ngModel)]="value"
+    #ctSelectModel="ngModel"
+    (open)="onDropDownOpen()"
+    (change)="onSelectionChange()">
+    <ng-template ng-multi-label-tmp let-items="items" let-clear="clear">
+      <div class="ng-value" *ngFor="let item of value | slice: 0:2">
+        <span
+          *ngIf="allowClear"
+          class="ng-value-icon right"
+          (click)="clear(item)"
+          aria-hidden="true">
+          ×
+        </span>
+        <span class="ng-value-label"> {{ item[visibleProperty] }}</span>
+      </div>
+      <div
+        class="ng-value"
+        *ngIf="items.length > 2"
+        [matTooltip]="selectedItem">
+        <span class="ng-value-label"
+          >{{ items.length - 2 }} {{ 'more_selected' | transloco }}
+        </span>
+      </div>
+    </ng-template>
+    <ng-template
+      ng-option-tmp
+      let-item="item"
+      let-item$="item$"
+      let-index="index">
+      <!-- <input
+        *ngIf="!singleSelectionMode"
+        id="item-{{ index }}"
+        type="checkbox"
+        [ngModel]="item$.selected" /> -->
+      <span> {{ item[visibleProperty] }} </span>
+    </ng-template>
+    <!-- <ng-template ng-footer-tmp>
+      <button (click)="onApply()" class="btn btn-sm btn-secondary">
+        Apply
+      </button>
+      <button (click)="onCancel()" class="btn btn-sm btn-secondary">
+        Cancel
+      </button>
+    </ng-template> -->
+  </ng-select>
+
+  <ng-select
+    #ctMultiSelect
+    [ngClass]="{
+      legacy: fieldAppearance === 'legacy',
+      standard: fieldAppearance === 'standard',
+      fill: fieldAppearance === 'fill',
+      outline: fieldAppearance === 'outline',
+      'dark-theme': withDarkTheme,
+      'light-theme': !withDarkTheme,
+      'non-material': !isMaterial
+    }"
+    *ngIf="!singleSelectionMode"
+    [placeholder]="placeholder"
+    [title]="title"
+    [clearable]="allowClear"
+    [searchable]="allowSearch"
+    [items]="selectorList"
+    [multiple]="!singleSelectionMode"
+    [bindLabel]="visibleProperty"
+    [clearSearchOnAdd]="clearSearchOnAdd"
+    groupBy="selectedAllGroup"
+    [selectableGroup]="true"
+    [selectableGroupAsModel]="false"
+    [closeOnSelect]="false"
+    [isError]="isError"
+    [isMaterial]="isMaterial"
+    [(ngModel)]="value"
+    #ctSelectModel="ngModel"
+    (open)="onDropDownOpen()"
+    (change)="onSelectionChange()"
+    [appendTo]="appendTo ? 'body' : appendTo">
+    <ng-template ng-multi-label-tmp let-items="items" let-clear="clear">
+      <ng-container *ngIf="items.length < maxItemToShow; else overflowState">
+        <div class="ng-value" *ngFor="let item of value">
+          <span
+            *ngIf="allowClear"
+            class="ng-value-icon right"
+            (click)="clear(item)"
+            aria-hidden="true">
+            ×
+          </span>
+          <span class="ng-value-label"> {{ item.name }}</span>
+        </div>
+      </ng-container>
+      <ng-template #overflowState>
+        <div class="ng-value" [matTooltip]="selectedItem">
+          <span class="ng-value-label"
+            >{{ items?.length }} {{ locale?.itemsSelectedLabel }}</span
+          >
+        </div>
+      </ng-template>
+    </ng-template>
+
+    <ng-template
+      ng-optgroup-tmp
+      let-item="item"
+      let-item$="item$"
+      let-index="index">
+      <input id="item-{{ index }}" type="checkbox" [ngModel]="item$.selected" />
+      <span> {{ locale.selectAllLabel }}</span>
+    </ng-template>
+
+    <ng-template
+      ng-option-tmp
+      let-item="item"
+      let-item$="item$"
+      let-index="index">
+      <input id="item-{{ index }}" type="checkbox" [ngModel]="item$.selected" />
+      <span> {{ item.name }} </span>
+    </ng-template>
+  </ng-select>
+</div>

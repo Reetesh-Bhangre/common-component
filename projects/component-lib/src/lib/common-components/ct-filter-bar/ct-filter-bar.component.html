@@ -1,0 +1,12 @@
+<div class="filter-bar">
+  <div class="filter-icon">
+    <i class="fa-solid fa-filter"></i>
+    <span>Filter</span>
+  </div>
+  <div class="chips-container">
+    <ng-container *ngFor="let filter of filtersList">
+      <ct-filter-chip [chipConfig]="filter" (chipValueChange)="onChipValueChange($event)"></ct-filter-chip>
+    </ng-container>
+  </div>
+  <!-- <button class="filter-btn" (click)="applyFilter()">Apply Filter</button> -->
+</div>

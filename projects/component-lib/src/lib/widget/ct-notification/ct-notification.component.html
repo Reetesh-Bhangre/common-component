@@ -1,0 +1,46 @@
+<div class="notification-container">
+  <i
+    class="fa-regular fa-bell icon"
+    [ngClass]="{
+      'dark-theme': withDarkTheme,
+      'light-theme': !withDarkTheme,
+      close: !notificationPopup
+    }"
+    [matTooltip]="notificationCount + ''"
+    [matTooltipClass]="'tooltip-count'"
+    (click)="toggleNotificationPopup()">
+    <span
+      class="count"
+      *ngIf="
+        (notificationCount || notificationCount === 0) && !countLoadingMask;
+        else countLoading
+      ">
+      <ng-container *ngIf="notificationCount > 9"> 9+ </ng-container>
+      <ng-container *ngIf="notificationCount <= 9">
+        {{ notificationCount }}
+      </ng-container>
+    </span>
+    <ng-template #countLoading>
+      <ct-loading-spinner></ct-loading-spinner>
+    </ng-template>
+  </i>
+  <div
+    class="notification-popup"
+    [ngStyle]="{
+      height: 'calc(100vh - ' + topGutter + 'px' + ' )',
+      top: topGutter + 'px'
+    }"
+    #notificationBoard
+    *ngIf="notificationPopup && isDropdownActive">
+    <ct-notification-popup
+      [boardLoadingMask]="boardLoadingMask"
+      [notificationMessages]="notificationMessages"
+      [topGutter]="topGutter"
+      [notificationCount]="notificationCount"
+      (messageRead)="messageReadClick($event)"
+      (messageArchive)="messageArchive($event)"
+      (closeMessageListPopup)="closeNotificationPopup()"
+      (markAllRead)="markAllAsRead()"
+      (viewAllNotification)="showAllNotification()"></ct-notification-popup>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="bar-container">
+  <google-chart
+    *ngIf="chartDataTable"
+    #ctGoogleBarChart
+    [data]="chartData"
+    (chartSelect)="getSelectedBar($event)"
+    (chartReady)="onChartReady()"
+    (click)="onChartClick()">
+  </google-chart>
+  <div *ngIf="!chartDataTable" class="loading-mask"></div>
+</div>

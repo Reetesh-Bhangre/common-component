@@ -1,0 +1,17 @@
+<div
+  class="loading-mask-wrapper"
+  [ngClass]="withDarkTheme ? 'light-theme' : 'dark-theme'">
+  <span class="loading-text">{{ loadingMessage }}</span>
+  <span class="loading-icon">
+    <div class="load-spinner">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </span>
+</div>

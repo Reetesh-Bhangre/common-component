@@ -1,0 +1,186 @@
+<div
+  class="phone-field iti iti--allow-dropdown"
+  *ngIf="!isMaterial"
+  [ngClass]="{
+    separateDialCodeClass,
+    'ng-invalid': isError,
+    'mat-form-field-invalid': isError,
+    'mat-form-field-has-error': isError,
+    'non-material': !isMaterial
+  }">
+  <label class="phone-title" *ngIf="title">{{ title }}</label>
+  <!--Dropdown To Select country-->
+  <div class="phone-field-wrapper">
+    <div
+      class="iti__flag-container"
+      dropdown
+      [ngClass]="{ disabled: disabled }">
+      <div class="iti__selected-flag dropdown-toggle" dropdownToggle>
+        <div
+          class="iti__flag"
+          [ngClass]="selectedCountry.flagClass || ''"></div>
+        <div *ngIf="separateDialCode" class="selected-dial-code">
+          +{{ selectedCountry.dialCode }}
+        </div>
+        <div class="iti__arrow"></div>
+      </div>
+      <div *dropdownMenu class="dropdown-menu country-dropdown">
+        <div
+          class="search-container"
+          *ngIf="searchCountryFlag && searchCountryField">
+          <input
+            id="country-search-box"
+            [(ngModel)]="countrySearchText"
+            (keyup)="searchCountry()"
+            (click)="$event.stopPropagation()"
+            [placeholder]="searchCountryPlaceholder"
+            autofocus />
+        </div>
+        <ul class="iti__country-list" #countryList>
+          <li
+            class="iti__country iti__preferred"
+            *ngFor="let country of preferredCountriesInDropDown"
+            (click)="onCountrySelect(country, focusable)"
+            [id]="country.htmlId + '-preferred'">
+            <div class="iti__flag-box">
+              <div class="iti__flag" [ngClass]="country.flagClass"></div>
+            </div>
+            <span class="iti__country-name">{{ country.name }}</span>
+            <span class="iti__dial-code">+{{ country.dialCode }}</span>
+          </li>
+          <li
+            class="iti__divider"
+            *ngIf="preferredCountriesInDropDown?.length"></li>
+          <li
+            class="iti__country iti__standard"
+            *ngFor="let country of allCountries"
+            (click)="onCountrySelect(country, focusable)"
+            [id]="country.htmlId">
+            <div class="iti__flag-box">
+              <div class="iti__flag" [ngClass]="country.flagClass"></div>
+            </div>
+            <span class="iti__country-name">{{ country.name }}</span>
+            <span class="iti__dial-code">+{{ country.dialCode }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Input to Enter Phone -->
+    <input
+      type="tel"
+      [id]="inputId"
+      autocomplete="off"
+      [ngClass]="cssClass"
+      (blur)="onTouched()"
+      (keypress)="onInputKeyPress($event)"
+      [(ngModel)]="phoneNumber"
+      (ngModelChange)="onPhoneNumberChange()"
+      [disabled]="disabled"
+      [placeholder]="resolvePlaceholder()"
+      [attr.maxLength]="maxLength"
+      [attr.validation]="phoneValidation"
+      #focusable />
+    <!-- Dropdown to Select Type -->
+    <select
+      class="type-container"
+      [(ngModel)]="selectedType"
+      (change)="onTypeChange($event)">
+      <option *ngFor="let type of phoneType">{{ type }}</option>
+    </select>
+  </div>
+</div>
+
+<div class="" *ngIf="isMaterial" [ngClass]="separateDialCodeClass">
+  <mat-form-field
+    class="example-full-width"
+    floatLabel="never"
+    [ngClass]="{
+      'ng-invalid': isError,
+      'mat-form-field-invalid': isError,
+      'mat-form-field-has-error': isError
+    }">
+    <div
+      matPrefix
+      class="prefix-button"
+      dropdown
+      [ngClass]="{ disabled: disabled }">
+      <div class="iti__selected-flag dropdown-toggle" dropdownToggle>
+        <div
+          class="iti__flag"
+          [ngClass]="selectedCountry.flagClass || ''"></div>
+        <div *ngIf="separateDialCode" class="selected-dial-code">
+          +{{ selectedCountry.dialCode }}
+        </div>
+        <i class="fa-solid fa-caret-down"></i>
+      </div>
+      <div *dropdownMenu class="dropdown-menu country-dropdown">
+        <div
+          class="search-container"
+          *ngIf="searchCountryFlag && searchCountryField">
+          <input
+            id="country-search-box"
+            [(ngModel)]="countrySearchText"
+            (keyup)="searchCountry()"
+            (click)="$event.stopPropagation()"
+            [placeholder]="searchCountryPlaceholder"
+            autofocus />
+        </div>
+        <ul class="iti__country-list" #countryList>
+          <li
+            class="iti__country iti__preferred"
+            *ngFor="let country of preferredCountriesInDropDown"
+            (click)="onCountrySelect(country, focusable)"
+            [id]="country.htmlId + '-preferred'">
+            <div class="iti__flag-box">
+              <div class="iti__flag" [ngClass]="country.flagClass"></div>
+            </div>
+            <span class="iti__country-name">{{ country.name }}</span>
+            <span class="iti__dial-code">+{{ country.dialCode }}</span>
+          </li>
+          <li
+            class="iti__divider"
+            *ngIf="preferredCountriesInDropDown?.length"></li>
+          <li
+            class="iti__country iti__standard"
+            *ngFor="let country of allCountries"
+            (click)="onCountrySelect(country, focusable)"
+            [id]="country.htmlId">
+            <div class="iti__flag-box">
+              <div class="iti__flag" [ngClass]="country.flagClass"></div>
+            </div>
+            <span class="iti__country-name">{{ country.name }}</span>
+            <span class="iti__dial-code">+{{ country.dialCode }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <input
+      matInput
+      type="tel"
+      autocomplete="off"
+      class="custom-mat-input"
+      [id]="inputId"
+      [ngClass]="cssClass"
+      (blur)="onTouched()"
+      (keypress)="onInputKeyPress($event)"
+      [(ngModel)]="phoneNumber"
+      (ngModelChange)="onPhoneNumberChange()"
+      [disabled]="disabled"
+      [placeholder]="resolvePlaceholder()"
+      [attr.maxLength]="maxLength"
+      [attr.validation]="phoneValidation"
+      #focusable />
+    <div class="phone-btn" matSuffix [matMenuTriggerFor]="type">
+      {{ selectedType }}
+      <i class="fa-solid fa-caret-down"></i>
+    </div>
+    <mat-menu #type="matMenu" backdropClass="phone-type-menu">
+      <button
+        (click)="onTypeChange(type, value)"
+        mat-menu-item
+        *ngFor="let type of phoneType">
+        {{ type }}
+      </button>
+    </mat-menu>
+  </mat-form-field>
+</div>

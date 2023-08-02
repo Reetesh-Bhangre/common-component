@@ -1,0 +1,10 @@
+.btn.icon-btn {
+  height: 20px;
+  background: transparent;
+  border: none;
+  color: #858b8d;
+  cursor: pointer;
+  &:hover {
+    color: #ff6767;
+  }
+}

@@ -1,0 +1,18 @@
+<label class="toggle-wrapper" *ngIf="!isMaterial">
+  <input
+    class="toggle-input"
+    type="checkbox"
+    (change)="changeToggleVal()"
+    [(ngModel)]="value"
+    [disabled]="disabled" />
+  <span
+    class="toggle-label"
+    [attr.data-on]="onText"
+    [attr.data-off]="offText"></span>
+  <span class="toggle-handle"></span>
+</label>
+<mat-slide-toggle
+  (change)="changeToggleVal()"
+  *ngIf="isMaterial"
+  class="ct-toggle-button"
+  [(ngModel)]="value"></mat-slide-toggle>

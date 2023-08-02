@@ -1,0 +1,63 @@
+<mat-form-field
+  class="example-full-width"
+  appearance="standard"
+  floatLabel="never"
+  [ngClass]="{
+    'dark-theme': withDarkTheme,
+    'light-theme': !withDarkTheme,
+    disable: disabled,
+    'ng-invalid': isError,
+    'mat-form-field-invalid': isError,
+    'mat-form-field-has-error': isError
+  }"
+  [ngbPopover]="timePickerContent"
+  (click)="inputClick()">
+  <mat-label *ngIf="title">{{ title }}</mat-label>
+  <input
+    matInput
+    autocomplete="off"
+    (clickOutside)="clickOutside()"
+    [(ngModel)]="timeString"
+    (ngModelChange)="onInputChange($event)"
+    [placeholder]="placeholder"
+    type="text"
+    [placeholder]="placeholder"
+    class="date-input"
+    [textMask]="{ mask: maskTime, guide: true, keepCharPositions: true }" />
+  <mat-icon matSuffix>
+    <i class="fa-solid fa-clock"></i>
+  </mat-icon>
+</mat-form-field>
+<ng-template #timePickerContent>
+  <div class="mt-auto">
+    <ngb-timepicker
+      *ngIf="seconds"
+      (clickOutside)="clickOutside()"
+      #tp
+      name="timepicker"
+      [ngModel]="time"
+      (ngModelChange)="onTimePickerChange($event)"
+      [meridian]="is12HrClock"
+      [seconds]="seconds"
+      [hourStep]="hourStep"
+      [minuteStep]="minuteStep"
+      [secondStep]="secondStep"
+      [spinners]="true"
+      [size]="'small'">
+    </ngb-timepicker>
+  </div>
+</ng-template>
+
+<div class="time-set-container" #list *ngIf="showTimeSet && !seconds">
+  <mat-selection-list
+    [multiple]="false"
+    [(ngModel)]="timeSetValue"
+    (ngModelChange)="onTimeSetChange($event)">
+    <mat-list-option
+      [value]="timeu"
+      *ngFor="let timeu of timeSet"
+      [ngClass]="timeu === timeSetValue ? 'active' : ''">
+      {{ timeu }}
+    </mat-list-option>
+  </mat-selection-list>
+</div>

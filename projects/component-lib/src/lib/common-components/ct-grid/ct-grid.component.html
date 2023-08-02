@@ -1,0 +1,40 @@
+<!-- Ag Grid Container Wrapper -->
+<div class="grid-container" #gridContainerRef>
+  <!-- 
+        ag-grid-angular is a selector to draw a grid in UI side
+     -->
+  <ag-grid-angular
+    #agGrid
+    style="width: 100%; height: 100%"
+    class="ag-theme-alpine"
+    [context]="context"
+    [columnDefs]="gridColumn"
+    [rowHeight]="rowHeight ? rowHeight : gridRowHeight"
+    [headerHeight]="headerHeight ? headerHeight : gridHeaderHeight"
+    [defaultColDef]="gridDefaultColDef"
+    [gridOptions]="gridOptions"
+    (gridReady)="onGridReady($event)"
+    [rowSelection]="rowSelection"
+    [rowMultiSelectWithClick]="rowMultiSelectWithClick"
+    (rowSelected)="onRowSelected($event)"
+    (rowClicked)="onRowClicked($event)"
+    [pagination]="gridPagination"
+    [paginationPageSize]="paginationPageSize"
+    [cacheBlockSize]="paginationPageSize"
+    [suppressRowVirtualisation]="gridRowVirtualization"
+    [suppressColumnVirtualisation]="gridColVirtualization"
+    [cacheOverflowSize]="cacheOverflowSize"
+    [maxConcurrentDatasourceRequests]="maxConcurrentDatasourceRequests"
+    [infiniteInitialRowCount]="infiniteInitialRowCount"
+    [maxBlocksInCache]="maxBlocksInCache"
+    [paginationAutoPageSize]="false"
+    [rowModelType]="rowModelType"
+    (filterChanged)="onFilterChanged($event)"
+    [rowData]="gridData"
+    [overlayLoadingTemplate]="overlayLoadingTemplate"
+    [overlayNoRowsTemplate]="overlayNoRowsTemplate"
+    [getRowClass]="getRowClass"
+    [frameworkComponents]="frameworkComponents"
+    (paginationChanged)="paginationChanged($event)">
+  </ag-grid-angular>
+</div>

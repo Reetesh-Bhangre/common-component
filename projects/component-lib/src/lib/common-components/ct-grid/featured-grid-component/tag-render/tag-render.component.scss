@@ -1,0 +1,33 @@
+.tag-element {
+  border: 1px solid #858b8d;
+  padding: 2px 2px;
+  border-radius: 15px;
+  width: 60px;
+  display: inline-block;
+  line-height: 16px;
+  text-align: center;
+  background-color: transparent;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 800;
+  &.high {
+    background: #ff0000;
+    border-color: #ff0000;
+  }
+  &.low {
+    background: #727272;
+    border-color: #727272;
+  }
+  &.medium {
+    background: #fbb03b;
+    border-color: #fbb03b;
+  }
+  &.ct {
+    border-color: #1f509d;
+    color: #1f509d;
+  }
+  &.wes {
+    border-color: #00c658;
+    color: #00c658;
+  }
+}

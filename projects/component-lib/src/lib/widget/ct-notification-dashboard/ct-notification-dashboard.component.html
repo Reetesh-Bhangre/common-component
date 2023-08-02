@@ -1,0 +1,24 @@
+<mat-tab-group class="ct-tab-group">
+  <!-- Notification Tab -->
+  <mat-tab>
+    <ng-template mat-tab-label> Notification </ng-template>
+    <ct-grid
+      #activeNotificationGrid
+      [fitToWindow]="fitToWindow"
+      [gridHeight]="gridHeight"
+      [gridData]="gridData"
+      [gridColumn]="nonArchiveColDef"
+      [gridDefaultColDef]="gridDefaultColDef"
+      [paginationPageSize]="paginationPageSize"
+      [rowMultiSelectWithClick]="rowMultiSelectWithClick"
+      [rowHeight]="60"
+      [headerHeight]="54"
+      (rowClickedEvent)="onRowClick($event)">
+    </ct-grid>
+  </mat-tab>
+  <!-- Archive Notification Tab -->
+  <mat-tab>
+    <ng-template mat-tab-label> Archive Notification </ng-template>
+    Archive Notification Component Works
+  </mat-tab>
+</mat-tab-group>

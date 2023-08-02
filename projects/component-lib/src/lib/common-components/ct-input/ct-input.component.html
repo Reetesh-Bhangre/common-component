@@ -1,0 +1,60 @@
+<ng-container *ngIf="isMaterial && !embeddedToParent">
+  <mat-form-field
+    class="example-full-width"
+    appearance="standard"
+    floatLabel="never"
+    [ngClass]="{
+      'ng-invalid': isError,
+      'mat-form-field-invalid': isError,
+      'mat-form-field-has-error': isError,
+      'dark-theme': withDarkTheme,
+      'light-theme': !withDarkTheme
+    }">
+    <mat-label *ngIf="title">{{ title }}</mat-label>
+    <input
+      class="ct-input"
+      [type]="type"
+      matInput
+      [placeholder]="placeholder"
+      [(ngModel)]="value" />
+  </mat-form-field>
+</ng-container>
+<ng-container *ngIf="!isMaterial && !embeddedToParent">
+  <div
+    class="input-field"
+    [ngClass]="{
+      'ng-invalid': isError,
+      'mat-form-field-invalid': isError,
+      'mat-form-field-has-error': isError,
+      'dark-theme': withDarkTheme,
+      'light-theme': !withDarkTheme,
+      'non-material': !isMaterial
+    }">
+    <label class="input-title" *ngIf="title">{{ title }}</label>
+    <input
+      class="ct-input"
+      [type]="type"
+      [placeholder]="placeholder"
+      [(ngModel)]="value" />
+  </div>
+</ng-container>
+<ng-container *ngIf="embeddedToParent">
+    <div
+      class="input-field with-chip"
+      [ngClass]="{
+        'ng-invalid': isError,
+        'mat-form-field-invalid': isError,
+        'mat-form-field-has-error': isError,
+        'dark-theme': withDarkTheme,
+        'light-theme': !withDarkTheme,
+        'non-material': !isMaterial
+      }">
+      <input
+        class="ct-input"
+        #ctInputModel="ngModel"
+        [type]="type"
+        [placeholder]="placeholder"
+        (blur)="onFocusout($event)"
+        [(ngModel)]="value" />
+    </div>
+  </ng-container>

@@ -1,0 +1,120 @@
+<div class="notification-popup-wrapper">
+  <div class="notification-popup-header">
+    <div class="header-action">
+      <span class="header-title">Notifications</span>
+      <button class="link mark-read" [ngClass]="notificationCount === 0 ? 'disable' : ''" (click)="markAllAsRead()">
+        Mark all as read
+      </button>
+    </div>
+    <button class="link close">
+      <i (click)="onCloseClick()" class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+  <div
+    class="notification-popup-body"
+    [ngStyle]="{
+      height: 'calc(100vh - ' + (topGutter + 100) + 'px' + ' )'
+    }">
+    <ul class="message-container" *ngIf="!boardLoadingMask; else loading">
+      <div
+        *ngIf="
+          notificationMessages && notificationMessages?.length > 0;
+          else noItems
+        ">
+        <ng-container *ngFor="let list of notificationMessages">
+          <li
+            class="message-list"
+            [ngClass]="{
+              read: list?.isRead,
+              unread: !list?.isRead,
+              active: list.id === activeMessageId
+            }">
+            <div class="message-body" (click)="onMessageClick(list)">
+              <span class="title">
+                {{
+                  list?.subject ? list?.subject : 'Unavailable message title'
+                }}
+              </span>
+              <span class="description">
+                {{
+                  list?.message
+                    ? list?.message
+                    : 'Unavailable message Description'
+                }}
+              </span>
+              <span class="time">
+                {{ list.lastModifiedTs | date: 'dd MMM YYYY hh:mm a' }}
+                <span class="tag severity {{ list?.severity | lowercase }}">
+                  {{ list?.severity }}
+                </span>
+              </span>
+            </div>
+            <div class="message-action">
+              <span class="source tag {{ list?.source | lowercase }}">
+                {{ list?.source }}
+              </span>
+              <button class="archive link" (click)="archive(list)">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </div>
+          </li>
+        </ng-container>
+      </div>
+      <ng-template #noItems>
+        <li class="no-item">No Notifications Are Available</li>
+      </ng-template>
+    </ul>
+    <ng-template #loading>
+      <ct-widget-loading
+        [withDarkTheme]="false"
+        [loadingMessage]="'Loading...'">
+      </ct-widget-loading>
+    </ng-template>
+  </div>
+  <div class="notification-popup-footer">
+    <button class="link" (click)="showAllNotification()">
+      Show All Notification
+    </button>
+  </div>
+</div>
+
+<div
+  class="opened-message-container"
+  [ngStyle]="{
+    height: 'calc(100vh - ' + topGutter + 'px' + ' )',
+    top: topGutter + 'px'
+  }"
+  [ngClass]="activeMessageId !== '' ? 'active' : ''">
+  <div class="message-body">
+    <h4 class="title">
+      {{
+        activeMessageDetails?.subject
+          ? activeMessageDetails?.subject
+          : 'Unavailable message title'
+      }}
+    </h4>
+    <p>
+      {{
+        activeMessageDetails?.message
+          ? activeMessageDetails?.message
+          : 'Unavailable message description'
+      }}
+    </p>
+    <p>
+      <span *ngIf="activeMessageDetails?.lastModifiedTs">{{
+        activeMessageDetails?.lastModifiedTs | date: 'dd MMM YYYY hh:mm a'
+      }}</span>
+      <span
+        *ngIf="activeMessageDetails?.severity"
+        class="tag severity {{ activeMessageDetails?.severity | lowercase }}">
+        {{ activeMessageDetails?.severity }}
+      </span>
+    </p>
+  </div>
+  <span class="tag source {{ activeMessageDetails?.source | lowercase }}">{{
+    activeMessageDetails?.source
+  }}</span>
+  <button (click)="closeOpenedMessage()" class="link close-btn">
+    <i class="fa-solid fa-angle-right"></i>
+  </button>
+</div>

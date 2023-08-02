@@ -1,0 +1,154 @@
+<!-- ngx Date Range Picker Start -->
+<ng-container *ngIf="isMaterial">
+  <mat-form-field
+    class="example-full-width"
+    appearance="standard"
+    floatLabel="never"
+    [ngClass]="{
+      'ng-invalid': isError,
+      'mat-form-field-invalid': isError,
+      'mat-form-field-has-error': isError,
+      'dark-theme': withDarkTheme,
+      'light-theme': !withDarkTheme
+    }">
+    <mat-label *ngIf="title">{{ title }}</mat-label>
+    <input
+      autocomplete="off"
+      *ngIf="!ranges"
+      matInput
+      type="text"
+      ngxDaterangepickerMd
+      [locale]="localeConfig"
+      [(ngModel)]="value"
+      [showCancel]="true"
+      class="date-input"
+      (datesUpdated)="datesUpdated($event)"
+      (rangeClicked)="rangeClicked($event)"
+      [autoApply]="autoApply"
+      [singleDatePicker]="!isDateRange"
+      [linkedCalendars]="true"
+      [showDropdowns]="false"
+      [showWeekNumbers]="false"
+      [opens]="dropDownXPosition"
+      [drops]="dropDownYPosition"
+      [showISOWeekNumbers]="false"
+      [timePicker]="timePicker"
+      [placeholder]="placeholder" 
+      #ctDatePickerModel="ngModel"
+      />
+
+    <!-- Date range with selection widgets-->
+    <input
+      autocomplete="off"
+      *ngIf="ranges"
+      matInput
+      type="text"
+      ngxDaterangepickerMd
+      [locale]="localeConfig"
+      [(ngModel)]="value"
+      [showCancel]="true"
+      [ranges]="ranges"
+      [minDate]="minDate"
+      [maxDate]="maxDate"
+      class="date-input"
+      (datesUpdated)="datesUpdated($event)"
+      (rangeClicked)="rangeClicked($event)"
+      [autoApply]="false"
+      [defaultRangeLabel]="defaultRangeLabel"
+      [singleDatePicker]="!isDateRange"
+      [withMultiCalendar]="withMultiCalendar"
+      [linkedCalendars]="true"
+      [showDropdowns]="false"
+      [showWeekNumbers]="false"
+      [showISOWeekNumbers]="false"
+      [showCustomRangeLabel]="false"
+      [alwaysShowCalendars]="true"
+      [keepCalendarOpeningWithRange]="true"
+      [opens]="dropDownXPosition"
+      [drops]="dropDownYPosition"
+      [timePicker]="timePicker"
+      [placeholder]="placeholder" 
+      #ctDatePickerModel="ngModel"
+      />
+    <!-- <mat-hint>{{ hint }}</mat-hint> -->
+    <mat-icon matSuffix
+      ><i
+        (click)="openCalendar()"
+        class="fa-solid fa-calendar-day ngx-daterangepicker-action"></i
+    ></mat-icon>
+  </mat-form-field>
+</ng-container>
+<!-- ngx Date Range Picker Start -->
+<ng-container *ngIf="!isMaterial">
+  <div
+    class="date-picker"
+    [ngClass]="{
+      'ng-invalid': isError,
+      'mat-form-field-invalid': isError,
+      'mat-form-field-has-error': isError,
+      'dark-theme': withDarkTheme,
+      'light-theme': !withDarkTheme,
+      'non-material': !isMaterial
+    }">
+    <label class="date-picker-title" *ngIf="title">{{ title }}</label>
+    <input
+      autocomplete="off"
+      *ngIf="!ranges"
+      type="text"
+      ngxDaterangepickerMd
+      [locale]="localeConfig"
+      [(ngModel)]="value"
+      [showCancel]="true"
+      class="date-input"
+      (datesUpdated)="datesUpdated($event)"
+      (rangeClicked)="rangeClicked($event)"
+      [autoApply]="autoApply"
+      [singleDatePicker]="!isDateRange"
+      [linkedCalendars]="true"
+      [showDropdowns]="false"
+      [showWeekNumbers]="false"
+      [opens]="dropDownXPosition"
+      [drops]="dropDownYPosition"
+      [showISOWeekNumbers]="false"
+      [timePicker]="timePicker"
+      [placeholder]="placeholder" 
+      #ctDatePickerModel="ngModel"
+      />
+
+    <!-- Date range with selection widgets-->
+    <input
+      autocomplete="off"
+      *ngIf="ranges"
+      type="text"
+      ngxDaterangepickerMd
+      [locale]="localeConfig"
+      [(ngModel)]="value"
+      [showCancel]="true"
+      [ranges]="ranges"
+      [minDate]="minDate"
+      [maxDate]="maxDate"
+      class="date-input"
+      (datesUpdated)="datesUpdated($event)"
+      (rangeClicked)="rangeClicked($event)"
+      [autoApply]="false"
+      [defaultRangeLabel]="defaultRangeLabel"
+      [singleDatePicker]="!isDateRange"
+      [withMultiCalendar]="withMultiCalendar"
+      [linkedCalendars]="true"
+      [showDropdowns]="false"
+      [showWeekNumbers]="false"
+      [showISOWeekNumbers]="false"
+      [showCustomRangeLabel]="false"
+      [alwaysShowCalendars]="true"
+      [keepCalendarOpeningWithRange]="true"
+      [opens]="dropDownXPosition"
+      [drops]="dropDownYPosition"
+      [timePicker]="timePicker"
+      [placeholder]="placeholder" 
+      #ctDatePickerModel="ngModel"
+      />
+    <i
+      (click)="openCalendar()"
+      class="calendar-icon fa-solid fa-calendar-day ngx-daterangepicker-action"></i>
+  </div>
+</ng-container>

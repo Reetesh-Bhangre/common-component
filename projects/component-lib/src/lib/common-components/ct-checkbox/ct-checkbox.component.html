@@ -1,0 +1,15 @@
+<label class="form-checkbox">
+    <mat-checkbox
+        [(ngModel)]="checked"
+        [labelPosition]="labelLeft ? 'before' : 'after'"
+        [disabled]="disabled"
+        (change)="changeModelVal()"
+        [ngModelOptions]="{ standalone: true }"
+        color="primary"
+    >
+        <span class="form-checkbox__label">
+            {{ labelText }}
+        </span>
+    </mat-checkbox>
+    <span class="form-checkbox__checkmark"></span> 
+</label>

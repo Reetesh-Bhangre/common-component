@@ -1,0 +1,44 @@
+.select-all {
+    margin: 0px;
+    position: relative;
+    input[type='checkbox'] {
+        height: 16px;
+        width: 16px;
+        margin: 3px 0px;
+        opacity: 0;
+        z-index: 1;
+        position: relative;
+        &:checked + .check-box {
+            opacity: 1;
+            &:after {
+                content: '\f106';
+            }
+        }
+        &.disabled {
+            cursor: not-allowed;
+            & + .check-box {
+                opacity: 0.5;
+                &:after {
+                    content: '';
+                }
+            }
+        }
+    }
+    .check-box {
+        height: 16px;
+        width: 16px;
+        position: absolute;
+        box-shadow: inset 0px 0px 0px 2px #CCC;
+        border-radius: 2px;
+        left: 0px;
+        top: 3px;
+        opacity: 0.9;
+        &:after {
+            color: #2053A3;
+            font-family: 'agGridAlpine';
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: normal;
+        }
+    }
+}

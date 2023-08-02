@@ -1,0 +1,235 @@
+{
+  "data": {
+    "pageNumber": 1,
+    "pageSize": 7,
+    "totalPages": 1,
+    "totalRecords": 14,
+    "records": [
+      {
+        "doorId": 22,
+        "doorName": "Dock_009",
+        "doorDisplayName": "FedExDock_009",
+        "systemState": "S3",
+        "state": "Truck Departing",
+        "stateDisplayName": "Truck Departing",
+        "eventTime": "7/9/2023 12:11:02 PM",
+        "siteName": "East Site",
+        "zoneName": null,
+        "registered": false,
+        "sensors": {
+          "latchStatus": "0",
+          "trailerStatus": "1"
+        }
+      },
+      {
+        "doorId": 21,
+        "doorName": "Dock_008",
+        "doorDisplayName": "FedExDock_008",
+        "systemState": "S2",
+        "state": "Truck Transaction",
+        "stateDisplayName": "Truck Transaction",
+        "eventTime": "7/9/2023 1:58:58 PM",
+        "siteName": "East Site",
+        "zoneName": "East Zone1",
+        "registered": true,
+        "sensors": {
+          "latchStatus": "1",
+          "trailerStatus": "1"
+        }
+      },
+      {
+        "doorId": 18,
+        "doorName": "Dock_007",
+        "doorDisplayName": "FedExDock_007",
+        "systemState": "S3",
+        "state": "Truck Departing",
+        "stateDisplayName": "Truck Departing",
+        "eventTime": "7/9/2023 1:04:33 PM",
+        "siteName": "East Site",
+        "zoneName": null,
+        "registered": false,
+        "sensors": {
+          "latchStatus": "0",
+          "trailerStatus": "1"
+        }
+      },
+      {
+        "doorId": 17,
+        "doorName": "Dock_006",
+        "doorDisplayName": "FedExDock_006",
+        "systemState": "S0",
+        "state": "No Truck",
+        "stateDisplayName": "No Truck",
+        "eventTime": "7/9/2023 1:00:26 PM",
+        "siteName": "East Site",
+        "zoneName": null,
+        "registered": true,
+        "sensors": {
+          "latchStatus": "0",
+          "trailerStatus": "0"
+        }
+      },
+      {
+        "doorId": 5,
+        "doorName": "Dock_005",
+        "doorDisplayName": "FedExDock_005",
+        "systemState": "S3",
+        "state": "Truck Departing",
+        "stateDisplayName": "Truck Departing",
+        "eventTime": "7/9/2023 12:56:17 PM",
+        "siteName": "East Site",
+        "zoneName": null,
+        "registered": false,
+        "sensors": {
+          "latchStatus": "0",
+          "trailerStatus": "1"
+        }
+      },
+      {
+        "doorId": 2,
+        "doorName": "Dock_002",
+        "doorDisplayName": "FedExDock_002",
+        "systemState": "S4",
+        "state": "Dock Locked",
+        "stateDisplayName": "Dock Locked",
+        "eventTime": "7/9/2023 12:15:06 PM",
+        "siteName": "East Site",
+        "zoneName": null,
+        "registered": true,
+        "sensors": {
+          "latchStatus": "1",
+          "trailerStatus": "0"
+        }
+      },
+      {
+        "doorId": 1,
+        "doorName": "Dock_001",
+        "doorDisplayName": "FedExDock_001",
+        "systemState": "S4",
+        "state": "Dock Locked",
+        "stateDisplayName": "Dock Locked",
+        "eventTime": "7/9/2023 12:15:05 PM",
+        "siteName": "East Site",
+        "zoneName": "East Zone1",
+        "registered": true,
+        "sensors": {
+          "latchStatus": "1",
+          "trailerStatus": "0"
+        }
+      },
+      {
+        "doorId": 22,
+        "doorName": "Dock_009",
+        "doorDisplayName": "FedExDock_009",
+        "systemState": "S3",
+        "state": "Truck Departing",
+        "stateDisplayName": "Truck Departing",
+        "eventTime": "7/9/2023 12:11:02 PM",
+        "siteName": "East Site",
+        "zoneName": null,
+        "registered": true,
+        "sensors": {
+          "latchStatus": "0",
+          "trailerStatus": "1"
+        }
+      },
+      {
+        "doorId": 21,
+        "doorName": "Dock_008",
+        "doorDisplayName": "FedExDock_008",
+        "systemState": "S2",
+        "state": "Truck Transaction",
+        "stateDisplayName": "Truck Transaction",
+        "eventTime": "7/9/2023 1:58:58 PM",
+        "siteName": "East Site",
+        "zoneName": "East Zone1",
+        "registered": true,
+        "sensors": {
+          "latchStatus": "1",
+          "trailerStatus": "1"
+        }
+      },
+      {
+        "doorId": 18,
+        "doorName": "Dock_007",
+        "doorDisplayName": "FedExDock_007",
+        "systemState": "S3",
+        "state": "Truck Departing",
+        "stateDisplayName": "Truck Departing",
+        "eventTime": "7/9/2023 1:04:33 PM",
+        "siteName": "East Site",
+        "zoneName": null,
+        "registered": true,
+        "sensors": {
+          "latchStatus": "0",
+          "trailerStatus": "1"
+        }
+      },
+      {
+        "doorId": 17,
+        "doorName": "Dock_006",
+        "doorDisplayName": "FedExDock_006",
+        "systemState": "S0",
+        "state": "No Truck",
+        "stateDisplayName": "No Truck",
+        "eventTime": "7/9/2023 1:00:26 PM",
+        "siteName": "East Site",
+        "zoneName": null,
+        "registered": true,
+        "sensors": {
+          "latchStatus": "0",
+          "trailerStatus": "0"
+        }
+      },
+      {
+        "doorId": 5,
+        "doorName": "Dock_005",
+        "doorDisplayName": "FedExDock_005",
+        "systemState": "S3",
+        "state": "Truck Departing",
+        "stateDisplayName": "Truck Departing",
+        "eventTime": "7/9/2023 12:56:17 PM",
+        "siteName": "East Site",
+        "zoneName": null,
+        "registered": true,
+        "sensors": {
+          "latchStatus": "0",
+          "trailerStatus": "1"
+        }
+      },
+      {
+        "doorId": 2,
+        "doorName": "Dock_002",
+        "doorDisplayName": "FedExDock_002",
+        "systemState": "S4",
+        "state": "Dock Locked",
+        "stateDisplayName": "Dock Locked",
+        "eventTime": "7/9/2023 12:15:06 PM",
+        "siteName": "East Site",
+        "zoneName": null,
+        "registered": true,
+        "sensors": {
+          "latchStatus": "1",
+          "trailerStatus": "0"
+        }
+      },
+      {
+        "doorId": 1,
+        "doorName": "Dock_001",
+        "doorDisplayName": "FedExDock_001",
+        "systemState": "S4",
+        "state": "Dock Locked",
+        "stateDisplayName": "Dock Locked",
+        "eventTime": "7/9/2023 12:15:05 PM",
+        "siteName": "East Site",
+        "zoneName": "East Zone1",
+        "registered": true,
+        "sensors": {
+          "latchStatus": "1",
+          "trailerStatus": "0"
+        }
+      }
+    ]
+  },
+  "error": null
+}

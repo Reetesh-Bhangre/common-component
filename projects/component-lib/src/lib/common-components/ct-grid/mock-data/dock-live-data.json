@@ -1,0 +1,75 @@
+{
+  "content": [
+    {
+      "systemState": "S0",
+      "stateDisplayName": "No Truck",
+      "eventTime": "2023-06-07:20:12:10",
+      "length": "[Live Counter]",
+      "iconClass": "fa-solid fa-truck-front"
+    },
+    {
+      "systemState": "S1",
+      "stateDisplayName": "Arriving",
+      "eventTime": "2023-06-07:20:12:10",
+      "length": "1m:08s",
+      "iconClass": "fa-solid fa-truck-front"
+    },
+    {
+      "systemState": "S2",
+      "stateDisplayName": "Transacting",
+      "eventTime": "2023-06-07:20:12:10",
+      "length": "5h:27m:43s",
+      "iconClass": "fa-solid fa-truck-front"
+    },
+    {
+      "systemState": "S3",
+      "stateDisplayName": "Departing",
+      "eventTime": "2023-06-07:20:12:10",
+      "length": "2m:41s",
+      "iconClass": "fa-solid fa-truck-front"
+    },
+    {
+      "systemState": "S4",
+      "stateDisplayName": "Locked",
+      "eventTime": "2023-06-07:20:12:10",
+      "length": "14s",
+      "iconClass": "fa-solid fa-truck-front"
+    },
+    {
+      "systemState": "S0",
+      "stateDisplayName": "No Truck",
+      "eventTime": "2023-06-07:20:12:10",
+      "length": "[Live Counter]",
+      "iconClass": "fa-solid fa-truck-front"
+    },
+    {
+      "systemState": "S1",
+      "stateDisplayName": "Arriving",
+      "eventTime": "2023-06-07:20:12:10",
+      "length": "1m:08s",
+      "iconClass": "fa-solid fa-truck-front"
+    },
+    {
+      "systemState": "S2",
+      "stateDisplayName": "Transacting",
+      "eventTime": "2023-06-07:20:12:10",
+      "length": "5h:27m:43s",
+      "iconClass": "fa-solid fa-truck-front"
+    },
+    {
+      "systemState": "S3",
+      "stateDisplayName": "Departing",
+      "eventTime": "2023-06-07:20:12:10",
+      "length": "2m:41s",
+      "iconClass": "fa-solid fa-truck-front"
+    },
+    {
+      "systemState": "S4",
+      "stateDisplayName": "Locked",
+      "eventTime": "2023-06-07:20:12:10",
+      "length": "14s",
+      "iconClass": "fa-solid fa-truck-front"
+    }
+  ],
+  "totalElements": 10
+}

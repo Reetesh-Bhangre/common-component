@@ -1,0 +1,9 @@
+<div class="line-container">
+  <google-chart
+    *ngIf="chartDataTable"
+    #ctGoogleLineChart
+    [data]="chartData"
+    (chartReady)="onChartReady()">
+  </google-chart>
+  <div *ngIf="!chartDataTable" class="loading-mask"></div>
+</div>

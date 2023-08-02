@@ -1,0 +1,437 @@
+{
+  "content": [
+    {
+      "source": "CT",
+      "messageId": "1",
+      "timestamp": "2022-11-01T05:55:45.976Z",
+      "errors": [
+        {
+          "errorId": "9898",
+          "description": "The activityId already exists. It can only be updated or cancelled."
+        }
+      ],
+      "dataObject": {
+        "systemId": "RMSP",
+        "deviceType": "GeekPlus",
+        "activityType": "Retrieve",
+        "activityDetail": {
+          "activityId": "A5A3EB48-1E10-4829-80CBwerwer-381De52229AD121",
+          "waveId": "1",
+          "groupId": "axc",
+          "containers": [
+            {
+              "containerId": "om",
+              "type": "SHELF",
+              "handlingCode": "N/A",
+              "location": {
+                "locationId": "workstation",
+                "zoneId": "4",
+                "aisle": "3",
+                "side": "2",
+                "orientation": "Front"
+              }
+            }
+          ],
+          "destination": {
+            "locationId": "11",
+            "zoneId": "22",
+            "aisle": "34",
+            "side": "6",
+            "orientation": "Front"
+          },
+          "deviceId": "RMSP",
+          "mode": "WAIT",
+          "priority": "1",
+          "startTime": "2022-10-19T09:12:26.778Z",
+          "suspended": true
+        }
+      },
+      "status": "BAD_REQUEST",
+      "direction": "FROM_RH_CLIENT",
+      "json": "{\"systemId\":\"RMSP\",\"deviceType\":\"GeekPlus\",\"activityType\":\"Retrieve\",\"activityDetail\":{\"activityId\":\"A5A3EB48-1E10-4829-80CBwerwer-381De52229AD121\",\"waveId\":\"1\",\"groupId\":\"axc\",\"containers\":[{\"containerId\":\"om\",\"type\":\"SHELF\",\"handlingCode\":\"N/A\",\"location\":{\"locationId\":\"workstation\",\"zoneId\":\"4\",\"aisle\":\"3\",\"side\":\"2\",\"orientation\":\"Front\"}}],\"destination\":{\"locationId\":\"11\",\"zoneId\":\"22\",\"aisle\":\"34\",\"side\":\"6\",\"orientation\":\"Front\"},\"deviceId\":\"RMSP\",\"mode\":\"WAIT\",\"priority\":\"1\",\"startTime\":\"2022-10-19T09:12:26.778Z\",\"suspended\":true}}"
+    },
+    {
+      "source": "CT",
+      "messageId": "2",
+      "timestamp": "2022-11-01T05:55:55.55Z",
+      "errors": [
+        {
+          "errorId": "9988",
+          "description": "The value 'RMSP2' is not in the list of allowed values: '[RMSP]'."
+        },
+        {
+          "errorId": "9898",
+          "description": "The activityId already exists. It can only be updated or cancelled."
+        }
+      ],
+      "dataObject": {
+        "systemId": "RMSP",
+        "deviceType": "GeekPlus",
+        "activityType": "Retrieve",
+        "activityDetail": {
+          "activityId": "A5A3EB48-1E10-4829-80CBwer81De52229AD121",
+          "waveId": "1",
+          "groupId": "axc",
+          "containers": [
+            {
+              "containerId": "om",
+              "type": "SHELF",
+              "handlingCode": "N/A",
+              "location": {
+                "locationId": "workstation",
+                "zoneId": "4",
+                "aisle": "3",
+                "side": "2",
+                "orientation": "Front"
+              }
+            }
+          ],
+          "destination": {
+            "locationId": "11",
+            "zoneId": "22",
+            "aisle": "34",
+            "side": "6",
+            "orientation": "Front"
+          },
+          "deviceId": "RMSP",
+          "mode": "WAIT",
+          "priority": "1",
+          "startTime": "2022-10-19T09:12:26.778Z",
+          "suspended": true
+        }
+      },
+      "status": "BAD_REQUEST",
+      "direction": "FROM_RH_CLIENT",
+      "json": "{\"systemId\":\"RMSP\",\"deviceType\":\"GeekPlus\",\"activityType\":\"Retrieve\",\"activityDetail\":{\"activityId\":\"A5A3EB48-1E10-4829-80CBwer81De52229AD121\",\"waveId\":\"1\",\"groupId\":\"axc\",\"containers\":[{\"containerId\":\"om\",\"type\":\"SHELF\",\"handlingCode\":\"N/A\",\"location\":{\"locationId\":\"workstation\",\"zoneId\":\"4\",\"aisle\":\"3\",\"side\":\"2\",\"orientation\":\"Front\"}}],\"destination\":{\"locationId\":\"11\",\"zoneId\":\"22\",\"aisle\":\"34\",\"side\":\"6\",\"orientation\":\"Front\"},\"deviceId\":\"RMSP\",\"mode\":\"WAIT\",\"priority\":\"1\",\"startTime\":\"2022-10-19T09:12:26.778Z\",\"suspended\":true}}"
+    },
+    {
+      "source": "CT",
+      "messageId": "3",
+      "timestamp": "2022-11-01T05:56:03.222Z",
+      "errors": [
+        {
+          "errorId": "9992",
+          "description": "The value 'systemId' is over its maximum value of '30' length."
+        },
+        {
+          "errorId": "9988",
+          "description": "The value '721680dc-2b84-4561-80a1-7d0e06aed277' is not in the list of allowed values: '[RMSP]'."
+        }
+      ],
+      "dataObject": {
+        "systemId": "721680dc-2b84-4561-80a1-7d0e06aed277",
+        "deviceType": "GeekPlus",
+        "activityType": "Retrieve",
+        "activityId": "A5A3EB48-1E10-4829-80CBwer81De52229AD121",
+        "activityState": "Moving",
+        "deviceId": "7498",
+        "timestamp": "2022-11-01T05:56:03.201Z",
+        "container": [
+          {
+            "containerId": "om",
+            "location": {}
+          }
+        ],
+        "location": {
+          "locationId": "11",
+          "xcoordinate": "29.5",
+          "ycoordinate": "10.5",
+          "zcoordinate": "1"
+        }
+      },
+      "status": "BAD_REQUEST",
+      "direction": "TO_RH_CLIENT",
+      "json": "{\"systemId\":\"721680dc-2b84-4561-80a1-7d0e06aed277\",\"deviceType\":\"GeekPlus\",\"activityType\":\"Retrieve\",\"activityId\":\"A5A3EB48-1E10-4829-80CBwer81De52229AD121\",\"activityState\":\"Moving\",\"deviceId\":\"7498\",\"timestamp\":\"2022-11-01T05:56:03.2015514Z\",\"container\":[{\"containerId\":\"om\",\"location\":{}}],\"location\":{\"locationId\":\"11\",\"ycoordinate\":\"10.5\",\"zcoordinate\":\"1\",\"xcoordinate\":\"29.5\"}}"
+    },
+    {
+      "source": "CT",
+      "messageId": "4",
+      "timestamp": "2022-11-01T05:56:10.38Z",
+      "errors": [
+        {
+          "errorId": "9992",
+          "description": "The value 'systemId' is over its maximum value of '30' length."
+        },
+        {
+          "errorId": "9988",
+          "description": "The value '721680dc-2b84-4561-80a1-7d0e06aed277' is not in the list of allowed values: '[RMSP]'."
+        }
+      ],
+      "dataObject": {
+        "systemId": "721680dc-2b84-4561-80a1-7d0e06aed277",
+        "deviceType": "GeekPlus",
+        "activityType": "Retrieve",
+        "activityId": "A5A3EB48-1E10-4829-80CBwer81De52229AD121",
+        "activityState": "Moving",
+        "deviceId": "7498",
+        "timestamp": "2022-11-01T05:56:10.379Z",
+        "container": [
+          {
+            "containerId": "om",
+            "location": {}
+          }
+        ],
+        "location": {
+          "locationId": "11",
+          "xcoordinate": "29.5",
+          "ycoordinate": "10.5",
+          "zcoordinate": "1"
+        }
+      },
+      "status": "BAD_REQUEST",
+      "direction": "TO_RH_CLIENT",
+      "json": "{\"systemId\":\"721680dc-2b84-4561-80a1-7d0e06aed277\",\"deviceType\":\"GeekPlus\",\"activityType\":\"Retrieve\",\"activityId\":\"A5A3EB48-1E10-4829-80CBwer81De52229AD121\",\"activityState\":\"Moving\",\"deviceId\":\"7498\",\"timestamp\":\"2022-11-01T05:56:10.3790146Z\",\"container\":[{\"containerId\":\"om\",\"location\":{}}],\"location\":{\"locationId\":\"11\",\"ycoordinate\":\"10.5\",\"zcoordinate\":\"1\",\"xcoordinate\":\"29.5\"}}"
+    },
+    {
+      "source": "CT",
+      "messageId": "5",
+      "timestamp": "2022-11-01T05:56:12.804Z",
+      "errors": [
+        {
+          "errorId": "9988",
+          "description": "The value 'RMSP2' is not in the list of allowed values: '[RMSP]'."
+        }
+      ],
+      "dataObject": {
+        "systemId": "RMSP2",
+        "deviceType": "GeekPlus",
+        "activityType": "Retrieve",
+        "activityDetail": {
+          "activityId": "A5A3EB48-1E10-4829-80CBwer81Dey52229AD121",
+          "waveId": "1",
+          "groupId": "axc",
+          "containers": [
+            {
+              "containerId": "om",
+              "type": "SHELF",
+              "handlingCode": "N/A",
+              "location": {
+                "locationId": "workstation",
+                "zoneId": "4",
+                "aisle": "3",
+                "side": "2",
+                "orientation": "Front"
+              }
+            }
+          ],
+          "destination": {
+            "locationId": "11",
+            "zoneId": "22",
+            "aisle": "34",
+            "side": "6",
+            "orientation": "Front"
+          },
+          "deviceId": "RMSP",
+          "mode": "WAIT",
+          "priority": "1",
+          "startTime": "2022-10-19T09:12:26.778Z",
+          "suspended": true
+        }
+      },
+      "status": "BAD_REQUEST",
+      "direction": "FROM_RH_CLIENT",
+      "json": "{\"systemId\":\"RMSP2\",\"deviceType\":\"GeekPlus\",\"activityType\":\"Retrieve\",\"activityDetail\":{\"activityId\":\"A5A3EB48-1E10-4829-80CBwer81Dey52229AD121\",\"waveId\":\"1\",\"groupId\":\"axc\",\"containers\":[{\"containerId\":\"om\",\"type\":\"SHELF\",\"handlingCode\":\"N/A\",\"location\":{\"locationId\":\"workstation\",\"zoneId\":\"4\",\"aisle\":\"3\",\"side\":\"2\",\"orientation\":\"Front\"}}],\"destination\":{\"locationId\":\"11\",\"zoneId\":\"22\",\"aisle\":\"34\",\"side\":\"6\",\"orientation\":\"Front\"},\"deviceId\":\"RMSP\",\"mode\":\"WAIT\",\"priority\":\"1\",\"startTime\":\"2022-10-19T09:12:26.778Z\",\"suspended\":true}}"
+    },
+    {
+      "source": "CT",
+      "messageId": "6",
+      "timestamp": "2022-11-01T05:56:17.418Z",
+      "errors": [
+        {
+          "errorId": "9992",
+          "description": "The value 'systemId' is over its maximum value of '30' length."
+        },
+        {
+          "errorId": "9988",
+          "description": "The value '721680dc-2b84-4561-80a1-7d0e06aed277' is not in the list of allowed values: '[RMSP]'."
+        }
+      ],
+      "dataObject": {
+        "systemId": "721680dc-2b84-4561-80a1-7d0e06aed277",
+        "deviceType": "GeekPlus",
+        "activityType": "Retrieve",
+        "activityId": "A5A3EB48-1E10-4829-80CBwer81De52229AD121",
+        "activityState": "Moving",
+        "deviceId": "7498",
+        "timestamp": "2022-11-01T05:56:17.416Z",
+        "container": [
+          {
+            "containerId": "om",
+            "location": {}
+          }
+        ],
+        "location": {
+          "locationId": "11",
+          "xcoordinate": "29.5",
+          "ycoordinate": "10.5",
+          "zcoordinate": "1"
+        }
+      },
+      "status": "BAD_REQUEST",
+      "direction": "TO_RH_CLIENT",
+      "json": "{\"systemId\":\"721680dc-2b84-4561-80a1-7d0e06aed277\",\"deviceType\":\"GeekPlus\",\"activityType\":\"Retrieve\",\"activityId\":\"A5A3EB48-1E10-4829-80CBwer81De52229AD121\",\"activityState\":\"Moving\",\"deviceId\":\"7498\",\"timestamp\":\"2022-11-01T05:56:17.4165434Z\",\"container\":[{\"containerId\":\"om\",\"location\":{}}],\"location\":{\"locationId\":\"11\",\"ycoordinate\":\"10.5\",\"zcoordinate\":\"1\",\"xcoordinate\":\"29.5\"}}"
+    },
+    {
+      "source": "CT",
+      "messageId": "7",
+      "timestamp": "2022-11-01T05:57:57.188Z",
+      "dataObject": {
+        "systemId": "RMSP",
+        "deviceType": "GeekPlus",
+        "activityType": "Retrieve",
+        "activityDetail": {
+          "activityId": "A5A3EB48-1E10-4829-80CBwer81De-y52229AD121",
+          "waveId": "1",
+          "groupId": "axc",
+          "containers": [
+            {
+              "containerId": "om",
+              "type": "SHELF",
+              "handlingCode": "N/A",
+              "location": {
+                "locationId": "workstation",
+                "zoneId": "4",
+                "aisle": "3",
+                "side": "2",
+                "orientation": "Front"
+              }
+            }
+          ],
+          "destination": {
+            "locationId": "11",
+            "zoneId": "22",
+            "aisle": "34",
+            "side": "6",
+            "orientation": "Front"
+          },
+          "deviceId": "RMSP",
+          "mode": "WAIT",
+          "priority": "1",
+          "startTime": "2022-10-19T09:12:26.778Z",
+          "suspended": true
+        }
+      },
+      "status": "OK",
+      "direction": "FROM_RH_CLIENT",
+      "json": "{\"systemId\":\"RMSP\",\"deviceType\":\"GeekPlus\",\"activityType\":\"Retrieve\",\"activityDetail\":{\"activityId\":\"A5A3EB48-1E10-4829-80CBwer81De-y52229AD121\",\"waveId\":\"1\",\"groupId\":\"axc\",\"containers\":[{\"containerId\":\"om\",\"type\":\"SHELF\",\"handlingCode\":\"N/A\",\"location\":{\"locationId\":\"workstation\",\"zoneId\":\"4\",\"aisle\":\"3\",\"side\":\"2\",\"orientation\":\"Front\"}}],\"destination\":{\"locationId\":\"11\",\"zoneId\":\"22\",\"aisle\":\"34\",\"side\":\"6\",\"orientation\":\"Front\"},\"deviceId\":\"RMSP\",\"mode\":\"WAIT\",\"priority\":\"1\",\"startTime\":\"2022-10-19T09:12:26.778Z\",\"suspended\":true}}"
+    },
+    {
+      "source": "CT",
+      "messageId": "8",
+      "timestamp": "2022-11-01T05:58:04.248Z",
+      "errors": [
+        {
+          "errorId": "9992",
+          "description": "The value 'systemId' is over its maximum value of '30' length."
+        },
+        {
+          "errorId": "9988",
+          "description": "The value '3e83e771-e9bf-4f40-8156-02c62cfcadb5' is not in the list of allowed values: '[RMSP]'."
+        }
+      ],
+      "dataObject": {
+        "systemId": "3e83e771-e9bf-4f40-8156-02c62cfcadb5",
+        "deviceType": "GeekPlus",
+        "activityType": "Retrieve",
+        "activityId": "A5A3EB48-1E10-4829-80CBwer81De-y52229AD121",
+        "activityState": "Moving",
+        "deviceId": "3242",
+        "timestamp": "2022-11-01T05:58:04.246Z",
+        "container": [
+          {
+            "containerId": "om",
+            "location": {}
+          }
+        ],
+        "location": {
+          "locationId": "11",
+          "xcoordinate": "29.5",
+          "ycoordinate": "10.5",
+          "zcoordinate": "1"
+        }
+      },
+      "status": "BAD_REQUEST",
+      "direction": "TO_RH_CLIENT",
+      "json": "{\"systemId\":\"3e83e771-e9bf-4f40-8156-02c62cfcadb5\",\"deviceType\":\"GeekPlus\",\"activityType\":\"Retrieve\",\"activityId\":\"A5A3EB48-1E10-4829-80CBwer81De-y52229AD121\",\"activityState\":\"Moving\",\"deviceId\":\"3242\",\"timestamp\":\"2022-11-01T05:58:04.2464329Z\",\"container\":[{\"containerId\":\"om\",\"location\":{}}],\"location\":{\"locationId\":\"11\",\"ycoordinate\":\"10.5\",\"zcoordinate\":\"1\",\"xcoordinate\":\"29.5\"}}"
+    },
+    {
+      "source": "CT",
+      "messageId": "9",
+      "timestamp": "2022-11-01T05:58:11.291Z",
+      "errors": [
+        {
+          "errorId": "9992",
+          "description": "The value 'systemId' is over its maximum value of '30' length."
+        },
+        {
+          "errorId": "9988",
+          "description": "The value '3e83e771-e9bf-4f40-8156-02c62cfcadb5' is not in the list of allowed values: '[RMSP]'."
+        }
+      ],
+      "dataObject": {
+        "systemId": "3e83e771-e9bf-4f40-8156-02c62cfcadb5",
+        "deviceType": "GeekPlus",
+        "activityType": "Retrieve",
+        "activityId": "A5A3EB48-1E10-4829-80CBwer81De-y52229AD121",
+        "activityState": "Moving",
+        "deviceId": "3242",
+        "timestamp": "2022-11-01T05:58:11.289Z",
+        "container": [
+          {
+            "containerId": "om",
+            "location": {}
+          }
+        ],
+        "location": {
+          "locationId": "11",
+          "xcoordinate": "29.5",
+          "ycoordinate": "10.5",
+          "zcoordinate": "1"
+        }
+      },
+      "status": "BAD_REQUEST",
+      "direction": "TO_RH_CLIENT",
+      "json": "{\"systemId\":\"3e83e771-e9bf-4f40-8156-02c62cfcadb5\",\"deviceType\":\"GeekPlus\",\"activityType\":\"Retrieve\",\"activityId\":\"A5A3EB48-1E10-4829-80CBwer81De-y52229AD121\",\"activityState\":\"Moving\",\"deviceId\":\"3242\",\"timestamp\":\"2022-11-01T05:58:11.2895038Z\",\"container\":[{\"containerId\":\"om\",\"location\":{}}],\"location\":{\"locationId\":\"11\",\"ycoordinate\":\"10.5\",\"zcoordinate\":\"1\",\"xcoordinate\":\"29.5\"}}"
+    },
+    {
+      "source": "CT",
+      "messageId": "10",
+      "timestamp": "2022-11-01T05:58:18.335Z",
+      "errors": [
+        {
+          "errorId": "9992",
+          "description": "The value 'systemId' is over its maximum value of '30' length."
+        },
+        {
+          "errorId": "9988",
+          "description": "The value '3e83e771-e9bf-4f40-8156-02c62cfcadb5' is not in the list of allowed values: '[RMSP]'."
+        }
+      ],
+      "dataObject": {
+        "systemId": "3e83e771-e9bf-4f40-8156-02c62cfcadb5",
+        "deviceType": "GeekPlus",
+        "activityType": "Retrieve",
+        "activityId": "A5A3EB48-1E10-4829-80CBwer81De-y52229AD121",
+        "activityState": "Moving",
+        "deviceId": "3242",
+        "timestamp": "2022-11-01T05:58:18.333Z",
+        "container": [
+          {
+            "containerId": "om",
+            "location": {}
+          }
+        ],
+        "location": {
+          "locationId": "11",
+          "xcoordinate": "29.5",
+          "ycoordinate": "10.5",
+          "zcoordinate": "1"
+        }
+      },
+      "status": "BAD_REQUEST",
+      "direction": "TO_RH_CLIENT",
+      "json": "{\"systemId\":\"3e83e771-e9bf-4f40-8156-02c62cfcadb5\",\"deviceType\":\"GeekPlus\",\"activityType\":\"Retrieve\",\"activityId\":\"A5A3EB48-1E10-4829-80CBwer81De-y52229AD121\",\"activityState\":\"Moving\",\"deviceId\":\"3242\",\"timestamp\":\"2022-11-01T05:58:18.3336878Z\",\"container\":[{\"containerId\":\"om\",\"location\":{}}],\"location\":{\"locationId\":\"11\",\"ycoordinate\":\"10.5\",\"zcoordinate\":\"1\",\"xcoordinate\":\"29.5\"}}"
+    }
+  ],
+  "totalElements": 10
+}

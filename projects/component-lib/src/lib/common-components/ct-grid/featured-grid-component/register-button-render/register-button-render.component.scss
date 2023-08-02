@@ -1,0 +1,16 @@
+.register-container {
+  font-weight: 600;
+  font-size: 14px;
+  button.register {
+    cursor: pointer;
+    border: 1px solid #1b1a1a;
+    color: #444444;
+    background: #fff;
+    border-radius: 2px;
+    padding: 5px 15px;
+  }
+  span {
+    color: #6f767e;
+    padding: 0 7px;
+  }
+}

@@ -1,0 +1,108 @@
+::ng-deep mat-form-field {
+  width: 100%;
+  .mat-form-field-wrapper {
+    .mat-form-field-infix {
+      width: 100%;
+    }
+  }
+  &.dark-theme {
+    .mat-input-element,
+    .date-input,
+    .mat-date-range-input-separator {
+      color: #fff;
+    }
+    label.mat-form-field-label {
+      color: #fff;
+    }
+    .mat-form-field-suffix {
+      mat-datepicker-toggle.mat-datepicker-toggle {
+        color: #fff;
+      }
+      mat-icon {
+        color: #fff;
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
+    .mat-form-field-underline,
+    .mat-form-field-underline .mat-form-field-ripple {
+      background-color: #fff;
+    }
+    mat-hint.mat-hint {
+      color: #fff;
+    }
+    &.mat-focused {
+      label.mat-form-field-label {
+        color: #fff;
+      }
+    }
+  }
+  &.mat-form-field-has-error {
+    .mat-form-field-infix {
+      input.mat-input-element {
+        caret-color: #f44336;
+      }
+    }
+    .mat-form-field-label-wrapper {
+      label.mat-form-field-label {
+        color: #f44336;
+      }
+    }
+    .mat-form-field-underline {
+      background-color: #f44336;
+      .mat-form-field-ripple {
+        color: #f44336;
+        background-color: #f44336;
+      }
+    }
+  }
+}
+::ng-deep .ct-input,
+::ng-deep mat-label {
+  font-size: 14px !important;
+}
+/*Non-Material Input CSS*/
+.input-field {
+  &.non-material {
+    label.input-title {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      color: #060d0d;
+    }
+    input.ct-input {
+      width: calc(100% - 25px);
+      border: none;
+      background: #fff;
+      padding: 14px 20px 14px 5px;
+      margin: 0;
+      height: 20px;
+      outline: none;
+      border-radius: 0px;
+      border: 2px solid #fff;
+    }
+    &.mat-form-field-has-error {
+      label.input-title {
+        color: #f44336;
+      }
+      input.ct-input {
+        border-color: #f44336;
+        caret-color: #f44336;
+      }
+    }
+  }
+  &.with-chip {
+    input.ct-input {
+        background: transparent;
+        padding: 0;
+        border: none;
+        width: calc(100% - 12px);
+        height: 30px;
+        padding: 0px 5px;
+        line-height: 32px;
+        font-size: 12px !important;
+        font-weight: 600;
+        color: #444444;
+    }
+  }
+}

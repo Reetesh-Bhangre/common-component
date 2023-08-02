@@ -1,0 +1,71 @@
+::ng-deep mat-form-field {
+  width: 100%;
+  &.dark-theme {
+    .mat-input-element,
+    .date-input,
+    .mat-date-range-input-separator {
+      color: #fff;
+    }
+    label.mat-form-field-label {
+      color: #fff;
+    }
+    .mat-form-field-suffix {
+      mat-datepicker-toggle.mat-datepicker-toggle {
+        color: #fff;
+      }
+      mat-icon {
+        color: #fff;
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
+    .mat-form-field-underline,
+    .mat-form-field-underline .mat-form-field-ripple {
+      background-color: #fff;
+    }
+    mat-hint.mat-hint {
+      color: #fff;
+    }
+    &.mat-focused {
+      label.mat-form-field-label {
+        color: #fff;
+      }
+    }
+  }
+  &.mat-form-field-has-error {
+    .mat-form-field-infix {
+      input.mat-input-element {
+        caret-color: #f44336;
+      }
+    }
+    .mat-form-field-label-wrapper {
+      label.mat-form-field-label {
+        color: #f44336;
+      }
+    }
+    .mat-form-field-underline {
+      background-color: #f44336;
+      .mat-form-field-ripple {
+        color: #f44336;
+        background-color: #f44336;
+      }
+    }
+    .mat-form-field-suffix {
+      .phone-btn {
+        color: #f44336;
+      }
+    }
+    .mat-form-field-prefix {
+      .prefix-button {
+        .iti__selected-flag {
+          .selected-dial-code {
+            color: #f44336;
+          }
+          i.fa-caret-down {
+            color: #f44336;
+          }
+        }
+      }
+    }
+  }
+}

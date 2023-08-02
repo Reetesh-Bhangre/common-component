@@ -1,0 +1,11 @@
+<div class="pie-container">
+  <google-chart
+    *ngIf="chartDataTable && chartDataTable.length > 0"
+    #ctGooglePieChart
+    [data]="chartData"
+    (chartSelect)="getSelectedSlice($event)"
+    (chartReady)="onChartReady()"
+    (click)="onChartClick()">
+  </google-chart>
+  <div *ngIf="!chartDataTable && chartDataTable.length === 0" class="loading-mask"></div>
+</div>

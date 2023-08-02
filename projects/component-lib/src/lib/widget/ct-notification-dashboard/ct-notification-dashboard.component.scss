@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap');
+::ng-deep {
+  mat-tab-group.ct-tab-group {
+    mat-tab-header.mat-tab-header {
+      border: none;
+      .mat-tab-labels {
+        .mat-tab-label {
+          padding: 0 30px;
+          min-width: initial;
+          height: 48px;
+          .mat-tab-label-content {
+            font-size: 14px;
+            font-weight: 400;
+            color: #000;
+            font-family: 'Nunito Sans', sans-serif;
+          }
+          &.mat-tab-label-active {
+            background-color: #fff;
+            border-radius: 5px 5px 0 0;
+            opacity: 1;
+            .mat-tab-label-content {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+      .mat-ink-bar {
+        display: none;
+      }
+    }
+    .mat-tab-body-wrapper {
+      height: calc(100vh - 83px);
+      background-color: #fff;
+    }
+  }
+}

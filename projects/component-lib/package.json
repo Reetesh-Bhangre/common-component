@@ -1,0 +1,33 @@
+{
+  "name": "@control-tower/component-lib",
+  "version": "1.1.40-develop.96",
+  "peerDependencies": {
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "@angular-slider/ngx-slider": "^2.0.4",
+    "@angular/animations": "^14.0.0",
+    "@angular/cdk": "^14.0.4",
+    "@angular/compiler": "^14.0.0",
+    "@angular/forms": "^14.0.0",
+    "@angular/material": "^14.0.4",
+    "@angular/material-moment-adapter": "^14.1.0",
+    "@angular/platform-browser": "^14.0.0",
+    "@angular/platform-browser-dynamic": "^14.0.0",
+    "@angular/router": "^14.0.0",
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@ng-select/ng-select": "^9.0.2",
+    "ag-grid-angular": "^28.0.0",
+    "ag-grid-community": "^28.0.2",
+    "dayjs": "^1.10.7",
+    "keycloak-angular": "^12.1.0",
+    "keycloak-js": "^19.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "ng2-google-charts": "^7.0.0",
+    "rxjs": "~7.5.0",
+    "zone.js": "~0.11.4",
+    "@ng-idle/core": "^11.1.0",
+    "@ng-idle/keepalive": "^11.0.3",
+    "ngx-toastr": "^15.2.2"
+  }
+}

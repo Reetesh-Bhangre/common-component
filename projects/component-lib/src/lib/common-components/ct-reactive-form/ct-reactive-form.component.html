@@ -1,0 +1,115 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="ct-form-control">
+    <ct-input [title]="'Ct Input'" formControlName="ctInput"> </ct-input>
+  </div>
+  <div class="ct-form-control">
+    <ct-date-picker
+      [isMaterial]="true"
+      [title]="'Angular Material Date Range Picker'"
+      [isDateRange]="true"
+      formControlName="materialRange"></ct-date-picker>
+  </div>
+  <div class="ct-form-control">
+    <ct-date-picker
+      [isMaterial]="true"
+      [title]="'Angular Material Single Date Picker'"
+      [isDateRange]="false"
+      formControlName="materialDate"></ct-date-picker>
+  </div>
+  <div class="ct-form-control">
+    <ct-date-picker
+      [isMaterial]="false"
+      [ranges]="ranges"
+      [defaultRangeLabel]="defaultRangeLabel"
+      [title]="'Custom Date Range Picker'"
+      [isDateRange]="true"
+      formControlName="customRange"></ct-date-picker>
+  </div>
+  <div class="ct-form-control">
+    <ct-date-picker
+      [isMaterial]="false"
+      [title]="'Custom Single Date Picker'"
+      [isDateRange]="false"
+      formControlName="customDate">
+    </ct-date-picker>
+  </div>
+  <div class="ct-form-control">
+    <ct-select
+      [title]="'CT Single Select'"
+      [selectorList]="selectorList"
+      [visibleProperty]="visibleProperty"
+      [singleSelectionMode]="singleSelectionMode"
+      [allowSearch]="allowSearch"
+      [allowClear]="allowClear"
+      [multiSelectionLimit]="multiSelectionLimit"
+      formControlName="singleSelect">
+    </ct-select>
+  </div>
+
+  <!-- <div class="form-control">
+    <ct-select
+      [title]="'CT Single Select'"
+      [selectorList]="selectorList"
+      [visibleProperty]="visibleProperty"
+      [singleSelectionMode]="singleSelectionMode"
+      [allowSearch]="allowSearch"
+      [allowClear]="allowClear"
+      [multiSelectionLimit]="multiSelectionLimit"
+      formControlName="noSelected">
+    </ct-select>
+  </div>
+  <div class="form-control">
+    <ct-select
+      [title]="'CT Multi Select'"
+      [selectorList]="selectorList"
+      [visibleProperty]="visibleProperty"
+      [singleSelectionMode]="isSingleSelectionMode"
+      [allowSearch]="allowSearch"
+      [allowClear]="allowClear"
+      [multiSelectionLimit]="multiSelectionLimit"
+      formControlName="noSelect">
+    </ct-select>
+  </div> -->
+  <div class="ct-form-control">
+    <ct-select
+      [title]="'CT Multi Select'"
+      [selectorList]="selectorList"
+      [visibleProperty]="visibleProperty"
+      [singleSelectionMode]="isSingleSelectionMode"
+      [allowSearch]="allowSearch"
+      [allowClear]="allowClear"
+      [multiSelectionLimit]="multiSelectionLimit"
+      formControlName="multiSelect">
+    </ct-select>
+  </div>
+  <div class="ct-form-control">
+    <ct-select
+      [title]="'CT Multi Select'"
+      [selectorList]="selectorList"
+      [visibleProperty]="visibleProperty"
+      [singleSelectionMode]="isSingleSelectionMode"
+      [allowSearch]="allowSearch"
+      [allowClear]="allowClear"
+      [multiSelectionLimit]="multiSelectionLimit"
+      formControlName="multiSelect">
+    </ct-select>
+  </div>
+  <div class="ct-form-control">
+    <ct-phone  formControlName="number"></ct-phone>
+  </div>
+
+  <div class="ct-form-control">
+    <ct-toggle formControlName="toggleBtn"></ct-toggle>
+  </div>
+  <div class="ct-form-control">
+    <ct-timepicker
+      [title]="'Start Time'"
+      formControlName="startTime" [is12HrClock]="true" ></ct-timepicker>
+  </div>
+  <button type="submit" (click)="onSubmit()">Submit</button>
+  <button  (click)="onReset()">Reset</button>
+  <pre>
+    {{ form.value | json }}
+    </pre
+  >
+</form>

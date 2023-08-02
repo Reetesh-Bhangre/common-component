@@ -1,0 +1,71 @@
+.cell-with-icon {
+  i {
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+  }
+  span.value {
+    position: relative;
+    padding-left: 5px;
+    margin-left: 5px;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 100%;
+      background: #666d6f;
+      top: 0;
+      left: 0;
+    }
+  }
+  &.S0 {
+    i {
+      color: #787878;
+    }
+    span.value {
+      &:before {
+        background: #787878;
+      }
+    }
+  }
+  &.S1 {
+    i {
+      color: #00d764;
+    }
+    span.value {
+      &:before {
+        background: #00d764;
+      }
+    }
+  }
+  &.S2 {
+    i {
+      color: #f7c815;
+    }
+    span.value {
+      &:before {
+        background: #f7c815;
+      }
+    }
+  }
+  &.S3 {
+    i {
+      color: #246cf9;
+    }
+    span.value {
+      &:before {
+        background: #246cf9;
+      }
+    }
+  }
+  &.S4 {
+    i {
+      color: #f21e00;
+    }
+    span.value {
+      &:before {
+        background: #f21e00;
+      }
+    }
+  }
+}

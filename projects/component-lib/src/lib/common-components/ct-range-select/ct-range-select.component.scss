@@ -1,0 +1,38 @@
+::ng-deep ngx-slider.ngx-slider {
+  margin-top: 15px;
+  .ngx-slider-span.ngx-slider-floor,
+  .ngx-slider-span.ngx-slider-ceil {
+    display: none;
+  }
+  .ngx-slider-bar-wrapper {
+    margin-top: -20px;
+    .ngx-slider-bar {
+      height: 12px;
+      border-radius: 8px;
+    }
+  }
+  .ngx-slider-tick {
+    .ngx-slider-tick-legend {
+      font-size: 0.75em;
+      letter-spacing: 0.11px;
+      margin-left: -4px;
+    }
+  }
+  .ngx-slider-tick.ngx-slider-selected,
+  .ngx-slider-selection {
+    background-color: #5da2cc;
+  }
+  .ngx-slider-pointer {
+    height: 20px;
+    width: 20px;
+    top: -10px;
+    background-color: #4682b9;
+    border: 1px solid #25496a;
+    &:after {
+      display: none;
+    }
+  }
+  .ngx-slider-bubble {
+    display: none;
+  }
+}

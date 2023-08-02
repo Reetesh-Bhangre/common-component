@@ -1,0 +1,167 @@
+li.iti__country:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.iti__selected-flag.dropdown-toggle:after {
+  content: none;
+}
+.iti__flag-container.disabled {
+  cursor: default !important;
+}
+.iti.iti--allow-dropdown .flag-container.disabled:hover .iti__selected-flag {
+  background: none;
+}
+.country-dropdown {
+  border: 1px solid #ccc;
+  width: fit-content;
+  padding: 1px;
+  border-collapse: collapse;
+}
+.search-container {
+  position: relative;
+}
+.search-container input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+}
+.search-icon {
+  position: absolute;
+  z-index: 2;
+  width: 25px;
+  margin: 1px 10px;
+}
+.iti__country-list {
+  position: relative;
+  border: none;
+}
+
+.iti input#country-search-box {
+  padding-left: 6px;
+}
+
+.iti .selected-dial-code {
+  margin-left: 6px;
+}
+
+.iti.separate-dial-code .iti__selected-flag,
+.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2 .iti__selected-flag,
+.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3 .iti__selected-flag,
+.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4 .iti__selected-flag {
+  width: 93px;
+}
+
+.iti.separate-dial-code input,
+.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2 input,
+.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3 input,
+.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4 input {
+  padding-left: 98px;
+}
+.iti--allow-dropdown input {
+  padding-right: 65px;
+}
+.type-container {
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  border: none;
+  height: calc(100% - 3px);
+  margin: 0px;
+  outline: none;
+  background-color: transparent;
+}
+.selected-country {
+  display: flex;
+  align-items: center;
+}
+::ng-deep mat-form-field.mat-form-field {
+  .mat-form-field-prefix,
+  .mat-form-field-suffix {
+    top: 0;
+    .prefix-button {
+      .iti__selected-flag {
+        width: auto;
+        display: flex;
+        align-items: baseline;
+        .selected-dial-code {
+          margin-right: 5px;
+          margin-left: 5px;
+        }
+        .fa-caret-down {
+          color: #555;
+          font-size: 14px;
+        }
+      }
+      #country-search-box {
+        padding: 5px;
+        height: 24px;
+        width: calc(100% - 10px);
+      }
+      .dropdown-menu.country-dropdown {
+        margin-top: 10px;
+      }
+    }
+  }
+  button.phone-btn {
+    background: transparent;
+    border: none;
+  }
+}
+
+::ng-deep .phone-type-menu + * .cdk-overlay-pane {
+  width: initial;
+  max-width: 100%;
+  margin: 0px;
+}
+/*Non-Material Phone CSS*/
+.phone-field {
+  &.non-material {
+    width: 100%;
+    label.phone-title {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      color: #060d0d;
+    }
+    .phone-field-wrapper {
+      display: flex;
+      width: 100%;
+      background: #fff;
+      padding: 10px 5px 10px 5px;
+      border: 2px solid #fff;
+      input {
+        padding: 2px;
+        width: 100%;
+        border: none;
+        outline: none;
+        margin: 0;
+        height: 24px;
+        font-size: 14px;
+        padding-left: 5px;
+      }
+      .iti__flag-container,
+      select.type-container {
+        position: relative;
+        .iti__selected-flag {
+          padding: 0;
+          .selected-dial-code {
+            font-size: 14px;
+          }
+        }
+        .dropdown-menu.country-dropdown.show {
+          margin-top: 13px;
+          margin-left: -6px;
+          border-radius: 0;
+        }
+      }
+    }
+    &.mat-form-field-has-error {
+      label.phone-title {
+        color: #f44336;
+      }
+      .phone-field-wrapper {
+        border-color: #f44336;
+      }
+    }
+  }
+}

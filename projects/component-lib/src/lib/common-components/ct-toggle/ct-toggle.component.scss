@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,300;1,400;1,700;1,800;1,900&display=swap');
+.toggle-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 30px;
+  padding: 3px;
+  cursor: pointer;
+  box-sizing: content-box;
+  .toggle-input {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    opacity: 0;
+    box-sizing: content-box;
+    &:checked ~ .toggle-label {
+      background: #2053a3;
+    }
+    &:checked ~ .toggle-label:before {
+      opacity: 0;
+    }
+    &:checked ~ .toggle-label:after {
+      opacity: 1;
+    }
+    &:checked ~ .toggle-handle {
+      left: 40px;
+    }
+    &:disabled ~ .toggle-label,
+    &:disabled ~ .toggle-handle {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+  .toggle-label {
+    position: relative;
+    display: block;
+    height: inherit;
+    background: #4682b9;
+    border-radius: 5px;
+    box-sizing: content-box;
+    &:before,
+    &:after {
+      position: absolute;
+      top: 50%;
+      margin-top: -0.5em;
+      line-height: 1;
+      -webkit-transition: inherit;
+      -moz-transition: inherit;
+      -o-transition: inherit;
+      transition: inherit;
+      box-sizing: content-box;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: #fff;
+      text-transform: capitalize;
+    }
+    &:before {
+      content: attr(data-off);
+      right: 11px;
+    }
+    &:after {
+      content: attr(data-on);
+      left: 11px;
+      opacity: 0;
+    }
+  }
+}
+.toggle-handle {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 28px;
+  height: 28px;
+}
+.toggle-handle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -7px 0 0 -7px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+/* Transition
+========================== */
+.toggle-label,
+.toggle-handle {
+  transition: All 0.3s ease;
+  -webkit-transition: All 0.3s ease;
+  -moz-transition: All 0.3s ease;
+  -o-transition: All 0.3s ease;
+}
+
+/* Material Toggle Button */
+::ng-deep mat-slide-toggle.mat-slide-toggle.ct-toggle-button {
+  .mat-slide-toggle-bar {
+    background-color: #b8baba;
+    border-radius: 4px;
+    .mat-slide-toggle-thumb-container {
+      left: -2px;
+      .mat-slide-toggle-thumb {
+        background-color: #bdbdbd;
+      }
+    }
+  }
+  &.mat-checked {
+    .mat-slide-toggle-bar {
+      .mat-slide-toggle-thumb-container {
+        left: 2px;
+        .mat-slide-toggle-thumb {
+          background-color: #0c3795;
+        }
+        .mat-ripple-element {
+          background-color: #0c3795;
+        }
+      }
+    }
+  }
+}

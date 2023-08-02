@@ -1,0 +1,1990 @@
+{
+  "data": {
+    "dockTotals": [
+      {
+        "status": "No Truck",
+        "hours": 474,
+        "minutes": 28473,
+        "seconds": 1708421,
+        "percentageOfTotal": "24.87%"
+      },
+      {
+        "status": "Truck Arrival",
+        "hours": 267,
+        "minutes": 16037,
+        "seconds": 962277,
+        "percentageOfTotal": "14.01%"
+      },
+      {
+        "status": "Truck Transaction",
+        "hours": 788,
+        "minutes": 47297,
+        "seconds": 2837854,
+        "percentageOfTotal": "41.31%"
+      },
+      {
+        "status": "Truck Departing",
+        "hours": 378,
+        "minutes": 22680,
+        "seconds": 1360813,
+        "percentageOfTotal": "19.81%"
+      }
+    ],
+    "docks": [
+      {
+        "dockName": "Dock_26",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "No Truck",
+            "hours": 11,
+            "minutes": 674,
+            "seconds": 40472,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 10,
+            "minutes": 626,
+            "seconds": 37564,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 92,
+            "seconds": 5526,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Departing",
+            "hours": 0,
+            "minutes": 47,
+            "seconds": 2838,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "No Truck",
+            "hours": 10,
+            "minutes": 627,
+            "seconds": 37646,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 0,
+            "minutes": 49,
+            "seconds": 2959,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 8,
+            "minutes": 523,
+            "seconds": 31393,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Departing",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 2,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "No Truck",
+            "hours": 2,
+            "minutes": 159,
+            "seconds": 9574,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 4,
+            "minutes": 258,
+            "seconds": 15530,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 16,
+            "minutes": 1006,
+            "seconds": 60385,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Departing",
+            "hours": 0,
+            "minutes": 15,
+            "seconds": 911,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "No Truck",
+            "hours": 12,
+            "minutes": 744,
+            "seconds": 44657,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 8,
+            "minutes": 489,
+            "seconds": 29370,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 0,
+            "minutes": 15,
+            "seconds": 925,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Departing",
+            "hours": 3,
+            "minutes": 190,
+            "seconds": 11448,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "No Truck",
+            "hours": 19,
+            "minutes": 1197,
+            "seconds": 71877,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 0,
+            "minutes": 2,
+            "seconds": 123,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "No Truck",
+            "hours": 13,
+            "minutes": 826,
+            "seconds": 49569,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 4,
+            "minutes": 255,
+            "seconds": 15304,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 3,
+            "minutes": 199,
+            "seconds": 11946,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Departing",
+            "hours": 2,
+            "minutes": 159,
+            "seconds": 9581,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "No Truck",
+            "hours": 5,
+            "minutes": 323,
+            "seconds": 19434,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 4,
+            "minutes": 295,
+            "seconds": 17751,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 167,
+            "seconds": 10048,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Departing",
+            "hours": 10,
+            "minutes": 652,
+            "seconds": 39167,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_24",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "No Truck",
+            "hours": 19,
+            "minutes": 1164,
+            "seconds": 69865,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 1,
+            "minutes": 97,
+            "seconds": 5865,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 165,
+            "seconds": 9928,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Departing",
+            "hours": 0,
+            "minutes": 12,
+            "seconds": 742,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "No Truck",
+            "hours": 17,
+            "minutes": 1065,
+            "seconds": 63938,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 0,
+            "minutes": 35,
+            "seconds": 2141,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 71,
+            "seconds": 4265,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Departing",
+            "hours": 0,
+            "minutes": 27,
+            "seconds": 1656,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "No Truck",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "No Truck",
+            "hours": 16,
+            "minutes": 960,
+            "seconds": 57607,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 6,
+            "minutes": 376,
+            "seconds": 22593,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 0,
+            "minutes": 39,
+            "seconds": 2367,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Departing",
+            "hours": 1,
+            "minutes": 63,
+            "seconds": 3833,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "No Truck",
+            "hours": 9,
+            "minutes": 582,
+            "seconds": 34953,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 0,
+            "minutes": 1,
+            "seconds": 107,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 74,
+            "seconds": 4484,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Departing",
+            "hours": 9,
+            "minutes": 540,
+            "seconds": 32456,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "No Truck",
+            "hours": 7,
+            "minutes": 470,
+            "seconds": 28219,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 10,
+            "minutes": 626,
+            "seconds": 37613,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 70,
+            "seconds": 4213,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Departing",
+            "hours": 4,
+            "minutes": 272,
+            "seconds": 16355,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "No Truck",
+            "hours": 0,
+            "minutes": 26,
+            "seconds": 1572,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 20,
+            "minutes": 1203,
+            "seconds": 72189,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 77,
+            "seconds": 4658,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Departing",
+            "hours": 2,
+            "minutes": 133,
+            "seconds": 7981,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_22",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "No Truck",
+            "hours": 0,
+            "minutes": 1,
+            "seconds": 110,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 0,
+            "minutes": 40,
+            "seconds": 2432,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 17,
+            "minutes": 1075,
+            "seconds": 64507,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Departing",
+            "hours": 1,
+            "minutes": 82,
+            "seconds": 4951,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 10,
+            "minutes": 619,
+            "seconds": 37193,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Departing",
+            "hours": 13,
+            "minutes": 820,
+            "seconds": 49207,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "No Truck",
+            "hours": 10,
+            "minutes": 626,
+            "seconds": 37605,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 1,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 13,
+            "minutes": 793,
+            "seconds": 47622,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Departing",
+            "hours": 0,
+            "minutes": 19,
+            "seconds": 1172,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 11,
+            "minutes": 694,
+            "seconds": 41658,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Departing",
+            "hours": 8,
+            "minutes": 505,
+            "seconds": 30342,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "No Truck",
+            "hours": 2,
+            "minutes": 122,
+            "seconds": 7329,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 5,
+            "minutes": 338,
+            "seconds": 20307,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 14,
+            "minutes": 844,
+            "seconds": 50655,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Departing",
+            "hours": 2,
+            "minutes": 135,
+            "seconds": 8109,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_20",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 20,
+            "minutes": 1200,
+            "seconds": 72000,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 20,
+            "minutes": 1200,
+            "seconds": 72000,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_18",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 113,
+            "seconds": 6790,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Departing",
+            "hours": 22,
+            "minutes": 1326,
+            "seconds": 79610,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 3,
+            "minutes": 194,
+            "seconds": 11684,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Departing",
+            "hours": 16,
+            "minutes": 1005,
+            "seconds": 60316,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 6,
+            "minutes": 401,
+            "seconds": 24116,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Departing",
+            "hours": 17,
+            "minutes": 1038,
+            "seconds": 62284,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 5,
+            "minutes": 340,
+            "seconds": 20406,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Departing",
+            "hours": 18,
+            "minutes": 1099,
+            "seconds": 65994,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 163,
+            "seconds": 9785,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Departing",
+            "hours": 17,
+            "minutes": 1036,
+            "seconds": 62215,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 160,
+            "seconds": 9611,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Departing",
+            "hours": 21,
+            "minutes": 1279,
+            "seconds": 76789,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 3,
+            "minutes": 219,
+            "seconds": 13198,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Departing",
+            "hours": 20,
+            "minutes": 1220,
+            "seconds": 73202,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_14",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "No Truck",
+            "hours": 10,
+            "minutes": 617,
+            "seconds": 37049,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 0,
+            "minutes": 33,
+            "seconds": 2033,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 3,
+            "minutes": 226,
+            "seconds": 13575,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Departing",
+            "hours": 9,
+            "minutes": 562,
+            "seconds": 33743,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "No Truck",
+            "hours": 8,
+            "minutes": 514,
+            "seconds": 30870,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 6,
+            "minutes": 377,
+            "seconds": 22626,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 110,
+            "seconds": 6639,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Departing",
+            "hours": 3,
+            "minutes": 197,
+            "seconds": 11865,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "No Truck",
+            "hours": 7,
+            "minutes": 426,
+            "seconds": 25570,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 13,
+            "minutes": 790,
+            "seconds": 47422,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 73,
+            "seconds": 4385,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Departing",
+            "hours": 2,
+            "minutes": 150,
+            "seconds": 9023,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "No Truck",
+            "hours": 5,
+            "minutes": 336,
+            "seconds": 20184,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 4,
+            "minutes": 287,
+            "seconds": 17225,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 4,
+            "minutes": 262,
+            "seconds": 15772,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Departing",
+            "hours": 9,
+            "minutes": 553,
+            "seconds": 33219,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "No Truck",
+            "hours": 13,
+            "minutes": 839,
+            "seconds": 50350,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 1,
+            "minutes": 97,
+            "seconds": 5860,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 73,
+            "seconds": 4393,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Departing",
+            "hours": 3,
+            "minutes": 189,
+            "seconds": 11397,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "No Truck",
+            "hours": 4,
+            "minutes": 263,
+            "seconds": 15832,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 10,
+            "minutes": 616,
+            "seconds": 37019,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 3,
+            "minutes": 187,
+            "seconds": 11263,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Departing",
+            "hours": 6,
+            "minutes": 371,
+            "seconds": 22286,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "No Truck",
+            "hours": 16,
+            "minutes": 1000,
+            "seconds": 60042,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 1,
+            "minutes": 91,
+            "seconds": 5496,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 163,
+            "seconds": 9827,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Departing",
+            "hours": 3,
+            "minutes": 183,
+            "seconds": 11035,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_12",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "No Truck",
+            "hours": 16,
+            "minutes": 960,
+            "seconds": 57603,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 1,
+            "minutes": 97,
+            "seconds": 5828,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 0,
+            "minutes": 36,
+            "seconds": 2197,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Departing",
+            "hours": 5,
+            "minutes": 346,
+            "seconds": 20772,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "No Truck",
+            "hours": 2,
+            "minutes": 174,
+            "seconds": 10496,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 3,
+            "minutes": 182,
+            "seconds": 10978,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 3,
+            "minutes": 225,
+            "seconds": 13530,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Departing",
+            "hours": 10,
+            "minutes": 616,
+            "seconds": 36996,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "No Truck",
+            "hours": 2,
+            "minutes": 159,
+            "seconds": 9599,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 10,
+            "minutes": 634,
+            "seconds": 38041,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 5,
+            "minutes": 315,
+            "seconds": 18900,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Departing",
+            "hours": 5,
+            "minutes": 331,
+            "seconds": 19860,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "No Truck",
+            "hours": 11,
+            "minutes": 687,
+            "seconds": 41246,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 5,
+            "minutes": 303,
+            "seconds": 18209,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 4,
+            "minutes": 295,
+            "seconds": 17746,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Departing",
+            "hours": 2,
+            "minutes": 153,
+            "seconds": 9199,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "No Truck",
+            "hours": 12,
+            "minutes": 749,
+            "seconds": 44997,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 2,
+            "minutes": 130,
+            "seconds": 7842,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 99,
+            "seconds": 5986,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Departing",
+            "hours": 3,
+            "minutes": 219,
+            "seconds": 13175,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "No Truck",
+            "hours": 8,
+            "minutes": 534,
+            "seconds": 32044,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 7,
+            "minutes": 453,
+            "seconds": 27226,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 5,
+            "minutes": 302,
+            "seconds": 18148,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Departing",
+            "hours": 2,
+            "minutes": 149,
+            "seconds": 8982,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "No Truck",
+            "hours": 5,
+            "minutes": 306,
+            "seconds": 18403,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 5,
+            "minutes": 305,
+            "seconds": 18339,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 175,
+            "seconds": 10526,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Departing",
+            "hours": 10,
+            "minutes": 652,
+            "seconds": 39132,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_08",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "No Truck",
+            "hours": 13,
+            "minutes": 794,
+            "seconds": 47670,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 0,
+            "minutes": 29,
+            "seconds": 1776,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 3,
+            "minutes": 189,
+            "seconds": 11377,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Departing",
+            "hours": 7,
+            "minutes": 426,
+            "seconds": 25577,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "No Truck",
+            "hours": 8,
+            "minutes": 488,
+            "seconds": 29301,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 5,
+            "minutes": 343,
+            "seconds": 20602,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 99,
+            "seconds": 5956,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Departing",
+            "hours": 4,
+            "minutes": 269,
+            "seconds": 16141,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "No Truck",
+            "hours": 3,
+            "minutes": 188,
+            "seconds": 11311,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 16,
+            "minutes": 963,
+            "seconds": 57799,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 62,
+            "seconds": 3751,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Departing",
+            "hours": 3,
+            "minutes": 225,
+            "seconds": 13539,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "No Truck",
+            "hours": 9,
+            "minutes": 593,
+            "seconds": 35618,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 4,
+            "minutes": 298,
+            "seconds": 17906,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 176,
+            "seconds": 10568,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Departing",
+            "hours": 6,
+            "minutes": 371,
+            "seconds": 22308,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "No Truck",
+            "hours": 9,
+            "minutes": 541,
+            "seconds": 32482,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 3,
+            "minutes": 197,
+            "seconds": 11851,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 140,
+            "seconds": 8404,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Departing",
+            "hours": 5,
+            "minutes": 321,
+            "seconds": 19263,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "No Truck",
+            "hours": 4,
+            "minutes": 264,
+            "seconds": 15899,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 9,
+            "minutes": 563,
+            "seconds": 33790,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 10,
+            "minutes": 611,
+            "seconds": 36711,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "No Truck",
+            "hours": 6,
+            "minutes": 372,
+            "seconds": 22370,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 9,
+            "minutes": 566,
+            "seconds": 34017,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 8,
+            "minutes": 496,
+            "seconds": 29791,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Departing",
+            "hours": 0,
+            "minutes": 3,
+            "seconds": 222,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_10",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "No Truck",
+            "hours": 17,
+            "minutes": 1048,
+            "seconds": 62910,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 2,
+            "minutes": 132,
+            "seconds": 7946,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 69,
+            "seconds": 4158,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Departing",
+            "hours": 3,
+            "minutes": 189,
+            "seconds": 11386,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "No Truck",
+            "hours": 11,
+            "minutes": 667,
+            "seconds": 40050,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 2,
+            "minutes": 137,
+            "seconds": 8231,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 172,
+            "seconds": 10359,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Departing",
+            "hours": 3,
+            "minutes": 222,
+            "seconds": 13360,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "No Truck",
+            "hours": 2,
+            "minutes": 158,
+            "seconds": 9529,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 16,
+            "minutes": 990,
+            "seconds": 59428,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 119,
+            "seconds": 7140,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Departing",
+            "hours": 2,
+            "minutes": 171,
+            "seconds": 10303,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "No Truck",
+            "hours": 4,
+            "minutes": 260,
+            "seconds": 15632,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 12,
+            "minutes": 743,
+            "seconds": 44613,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 157,
+            "seconds": 9429,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Departing",
+            "hours": 4,
+            "minutes": 278,
+            "seconds": 16726,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "No Truck",
+            "hours": 7,
+            "minutes": 423,
+            "seconds": 25395,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 0,
+            "minutes": 23,
+            "seconds": 1409,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 0,
+            "minutes": 12,
+            "seconds": 723,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Departing",
+            "hours": 12,
+            "minutes": 741,
+            "seconds": 44473,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "No Truck",
+            "hours": 8,
+            "minutes": 496,
+            "seconds": 29803,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 2,
+            "minutes": 165,
+            "seconds": 9923,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 5,
+            "minutes": 319,
+            "seconds": 19143,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Departing",
+            "hours": 7,
+            "minutes": 458,
+            "seconds": 27531,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "No Truck",
+            "hours": 5,
+            "minutes": 326,
+            "seconds": 19590,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 11,
+            "minutes": 678,
+            "seconds": 40701,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 4,
+            "minutes": 264,
+            "seconds": 15858,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Departing",
+            "hours": 2,
+            "minutes": 170,
+            "seconds": 10251,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_06",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 144,
+            "seconds": 8650,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Departing",
+            "hours": 21,
+            "minutes": 1295,
+            "seconds": 77750,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 75,
+            "seconds": 4525,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Departing",
+            "hours": 10,
+            "minutes": 654,
+            "seconds": 39240,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_02",
+        "details": [
+          {
+            "reportDate": "2022-05-01T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 20,
+            "minutes": 1200,
+            "seconds": 72000,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 20,
+            "minutes": 1200,
+            "seconds": 72000,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_04",
+        "details": [
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 20,
+            "minutes": 1200,
+            "seconds": 72000,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 20,
+            "minutes": 1200,
+            "seconds": 72000,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          }
+        ]
+      },
+      {
+        "dockName": "Dock_16",
+        "details": [
+          {
+            "reportDate": "2022-05-02T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 20,
+            "minutes": 1200,
+            "seconds": 72000,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-03T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 24,
+            "minutes": 1440,
+            "seconds": 86400,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "No Truck",
+            "hours": 12,
+            "minutes": 756,
+            "seconds": 45403,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 2,
+            "minutes": 161,
+            "seconds": 9703,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 4,
+            "minutes": 254,
+            "seconds": 15244,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-04T00:00:00",
+            "status": "Truck Departing",
+            "hours": 4,
+            "minutes": 267,
+            "seconds": 16050,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "No Truck",
+            "hours": 13,
+            "minutes": 818,
+            "seconds": 49087,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 4,
+            "minutes": 252,
+            "seconds": 15161,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 108,
+            "seconds": 6512,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-05T00:00:00",
+            "status": "Truck Departing",
+            "hours": 0,
+            "minutes": 20,
+            "seconds": 1240,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "No Truck",
+            "hours": 12,
+            "minutes": 749,
+            "seconds": 44969,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 8,
+            "minutes": 507,
+            "seconds": 30448,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 2,
+            "minutes": 158,
+            "seconds": 9506,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-06T00:00:00",
+            "status": "Truck Departing",
+            "hours": 0,
+            "minutes": 24,
+            "seconds": 1477,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "No Truck",
+            "hours": 15,
+            "minutes": 938,
+            "seconds": 56290,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Arrival",
+            "hours": 3,
+            "minutes": 183,
+            "seconds": 10980,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Transaction",
+            "hours": 1,
+            "minutes": 116,
+            "seconds": 6999,
+            "dockTimes": []
+          },
+          {
+            "reportDate": "2022-05-07T00:00:00",
+            "status": "Truck Departing",
+            "hours": 3,
+            "minutes": 202,
+            "seconds": 12131,
+            "dockTimes": []
+          }
+        ]
+      }
+    ]
+  },
+  "errorMessage": null
+}

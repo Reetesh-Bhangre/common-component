@@ -1,0 +1,45 @@
+h4 {
+  font-size: 13px;
+  font-family: 'Arial';
+}
+.loading-mask {
+  width: calc(100% - 30px);
+  padding: 5px 15px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background: #fff;
+  z-index: 9;
+  &:empty::after {
+    content: '';
+    display: block;
+    height: 20px;
+    width: 100%;
+    margin: 0px auto;
+    /* border-radius: 50%; */
+    background-image: linear-gradient(
+        90deg,
+        rgba(#fff, 0.1) 0,
+        rgba(#fff, 0.2) 75%,
+        rgba(#fff, 0.3) 100%
+      ),
+      linear-gradient(90deg, #efefef, #efefef, #efefef);
+    animation: linear loading 1s infinite;
+    background-size: 25px 350px, 100% 100%;
+    background-repeat: no-repeat;
+    transform: rotate(0deg);
+  }
+}
+@keyframes loading {
+  from {
+    background-position: 0% 0%;
+    // transform: rotate(0deg);
+  }
+  to {
+    background-position: 100% 0%;
+    // transform: rotate(360deg);
+  }
+}

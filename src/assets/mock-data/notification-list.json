@@ -1,0 +1,551 @@
+[
+  {
+    "clientId": 1,
+    "notificationId": 30,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "The Dock door [R_DockDoorName] us locked but sensor shows it does not have a trailer attached. Last Truck departed at [R_DepartedTime].",
+    "generatedOn": "2022-12-20T10:12:33.3582596",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 31,
+    "notificationSubject": "Dock Door Truck Transaction Delayed",
+    "notificationMessage": "The dock door Dock_16 has a trailer attached and transaction is delayed. Total time taken 50 which is more than SLA of 40.",
+    "generatedOn": "2022-12-20T10:59:11.2916077",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 32,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_20 at SouthEast Zone exceeded 40 minutes ideal time. Last Truck departed at 2022-12-12T02:00:00+00:00.",
+    "generatedOn": "2022-12-20T11:00:45.6014614",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 33,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_21 at 40 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-20T11:01:56.1189274",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 34,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_22 at NorthEast Zone since 40, but loading has finished and with the dock locked for 50 minutes but has not departed yet.  This is over over 40 minutes. The last Truck departed at 2022-12-12T02:00:00+00:00.",
+    "generatedOn": "2022-12-20T11:02:55.8910473",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 35,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_23 at NorthEast Zone since 40, but loading has finished and with the dock locked for 50 minutes but has not departed yet.  This is over over 40 minutes. The last Truck departed at 2022-12-12T02:00:00+00:00.",
+    "generatedOn": "2022-12-20T11:06:27.545234",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 36,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "The Dock door Dock_23 us locked but sensor shows it does not have a trailer attached. Last Truck departed at 2022-12-12T02:00:00+00:00.",
+    "generatedOn": "2022-12-20T11:07:45.6059647",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 37,
+    "notificationSubject": "Dock Door Truck Transaction Delayed",
+    "notificationMessage": "The dock door Dock_01 has a trailer attached and transaction is delayed. Total time taken 50 which is more than SLA of 40.",
+    "generatedOn": "2022-12-20T11:18:20.7511979",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 38,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_02 at NorthEast Zone exceeded 40 minutes ideal time. Last Truck departed at 2022-12-12T02:00:00+00:00.",
+    "generatedOn": "2022-12-20T11:19:22.1990264",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 39,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_03 at 40 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-20T11:20:17.0607118",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 40,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_04 at NorthEast Zone since 40, but loading has finished and with the dock locked for 50 minutes but has not departed yet.  This is over over 40 minutes. The last Truck departed at 2022-12-12T02:00:00+00:00.",
+    "generatedOn": "2022-12-20T11:21:12.0752943",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 41,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "The Dock door Dock_05 us locked but sensor shows it does not have a trailer attached. Last Truck departed at 2022-12-12T02:00:00+00:00.",
+    "generatedOn": "2022-12-20T11:22:34.8220214",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 42,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_01 at SouthEast Zone since 30, but loading has finished and with the dock locked for 185 minutes but has not departed yet.  This is over over 30 minutes. The last Truck departed at 0.",
+    "generatedOn": "2022-12-20T13:05:27.9305297",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 43,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_10 at NorthWest Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-20T13:05:29.288437",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 44,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_08 at SouthWest Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-20T13:05:29.7719144",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 45,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_02 at Central Zone since 30, but loading has finished and with the dock locked for 125 minutes but has not departed yet.  This is over over 30 minutes. The last Truck departed at 0.",
+    "generatedOn": "2022-12-20T13:05:30.3188716",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 46,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_14 at NorthEast Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-20T13:05:30.7997622",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 50,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_06 at Central Zone since 15, but loading has finished and with the dock locked for 140 minutes but has not departed yet.  This is over over 15 minutes. The last Truck departed at 0.",
+    "generatedOn": "2022-12-21T10:20:59.6854952",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 51,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_01 at SouthEast Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-21T10:21:00.2368587",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 52,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_12 at NorthEast Zone since 15, but loading has finished and with the dock locked for 200 minutes but has not departed yet.  This is over over 15 minutes. The last Truck departed at 0.",
+    "generatedOn": "2022-12-21T10:21:00.8745768",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 53,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_04 at SouthEast Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-21T10:21:01.4198626",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 54,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_08 at SouthWest Zone since 15, but loading has finished and with the dock locked for 277 minutes but has not departed yet.  This is over over 15 minutes. The last Truck departed at 0.",
+    "generatedOn": "2022-12-22T10:38:44.3646846",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 55,
+    "notificationSubject": "Dock Door Truck Transaction Delayed",
+    "notificationMessage": "The dock door Dock_16 has a trailer attached and transaction is delayed. Total time taken 277 which is more than SLA of 30.",
+    "generatedOn": "2022-12-22T10:38:46.9526054",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 56,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_10 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-22T10:38:48.84806",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 57,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_06 at Central Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-22T10:39:05.9289709",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 58,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_02 at Central Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-22T10:39:07.662039",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 59,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_08 at SouthWest Zone since 15, but loading has finished and with the dock locked for 282 minutes but has not departed yet.  This is over over 15 minutes. The last Truck departed at 0.",
+    "generatedOn": "2022-12-22T10:43:33.786989",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 60,
+    "notificationSubject": "Dock Door Truck Transaction Delayed",
+    "notificationMessage": "The dock door Dock_16 has a trailer attached and transaction is delayed. Total time taken 282 which is more than SLA of 30.",
+    "generatedOn": "2022-12-22T10:43:39.1058542",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 61,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_10 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-22T10:43:40.9252795",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 62,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_06 at Central Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-22T10:43:48.981348",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 63,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_02 at Central Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-22T10:43:55.4332938",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 64,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_02_1 at SouthEast Zone exceeded 40 minutes ideal time. Last Truck departed at [R_DepartedTime].",
+    "generatedOn": "2022-12-22T13:39:13.5274474",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 65,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_08 at SouthWest Zone since 15, but loading has finished and with the dock locked for 471 minutes but has not departed yet.  This is over over 15 minutes. The last Truck departed at 0.",
+    "generatedOn": "2022-12-22T13:51:49.6070012",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 66,
+    "notificationSubject": "Dock Door Truck Transaction Delayed",
+    "notificationMessage": "The dock door Dock_16 has a trailer attached and transaction is delayed. Total time taken 471 which is more than SLA of 360.",
+    "generatedOn": "2022-12-22T13:51:50.1401096",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 67,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_10 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-22T13:51:50.7492161",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 68,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_06 at Central Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-22T13:51:51.4392376",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 69,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_02 at Central Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-22T13:51:51.9399589",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 70,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_08 at SouthWest Zone since 15, but loading has finished and with the dock locked for 473 minutes but has not departed yet.  This is over over 15 minutes. The last Truck departed at 0.",
+    "generatedOn": "2022-12-22T13:53:03.6482984",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 71,
+    "notificationSubject": "Dock Door Truck Transaction Delayed",
+    "notificationMessage": "The dock door Dock_16 has a trailer attached and transaction is delayed. Total time taken 473 which is more than SLA of 360.",
+    "generatedOn": "2022-12-22T13:53:04.2085166",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 72,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_10 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-22T13:53:04.7107006",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 73,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_06 at Central Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-22T13:53:05.3476043",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 74,
+    "notificationSubject": "Truck Departed Dock Ideal",
+    "notificationMessage": "Dock door Dock_02 at Central Zone exceeded 30 minutes ideal time. Last Truck departed at 0.",
+    "generatedOn": "2022-12-22T13:53:05.8240744",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 75,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_08 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-23T11:47:09.1460234",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 76,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_08 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-23T11:47:19.2684281",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 77,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_01 at SouthEast Zone since 15, but loading has finished and with the dock locked for 647 minutes but has not departed yet.  This is over over 15 minutes. The last Truck departed at 2022-12-23T04:00:00+00:00.",
+    "generatedOn": "2022-12-23T11:47:19.8190239",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 78,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_10 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-23T11:47:20.3364195",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 79,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_04 at SouthEast Zone since 15, but loading has finished and with the dock locked for 647 minutes but has not departed yet.  This is over over 15 minutes. The last Truck departed at 2022-12-23T04:00:00+00:00.",
+    "generatedOn": "2022-12-23T11:47:20.8270919",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 80,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_12 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-23T11:47:21.3754142",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 81,
+    "notificationSubject": "Dock Door Truck Transaction Delayed",
+    "notificationMessage": "The dock door Dock_02 has a trailer attached and transaction is delayed. Total time taken 647 which is more than SLA of 360.",
+    "generatedOn": "2022-12-23T11:47:21.8622212",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 82,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_08 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-23T11:51:15.2775588",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 83,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_01 at SouthEast Zone since 15, but loading has finished and with the dock locked for 650 minutes but has not departed yet.  This is over over 15 minutes. The last Truck departed at 2022-12-23T04:00:00+00:00.",
+    "generatedOn": "2022-12-23T11:51:18.3141786",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 84,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_10 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-23T11:51:20.0752137",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 85,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "A truck has been at dock door Dock_04 at SouthEast Zone since 15, but loading has finished and with the dock locked for 650 minutes but has not departed yet.  This is over over 15 minutes. The last Truck departed at 2022-12-23T04:00:00+00:00.",
+    "generatedOn": "2022-12-23T11:51:26.0796402",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 86,
+    "notificationSubject": "Truck Arrived, Transaction Not Started",
+    "notificationMessage": "The truck has arrived at the dock door Dock_12 at 30 but hasn’t started the work yet.",
+    "generatedOn": "2022-12-23T11:51:29.083149",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 87,
+    "notificationSubject": "Dock Door Truck Transaction Delayed",
+    "notificationMessage": "The dock door Dock_02 has a trailer attached and transaction is delayed. Total time taken 650 which is more than SLA of 360.",
+    "generatedOn": "2022-12-23T11:51:30.7891848",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 88,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "The Dock door Dock_01 us locked but sensor shows it does not have a trailer attached. Last Truck departed at [R_DepartedTime].",
+    "generatedOn": "2023-01-03T10:55:39.7598633",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 89,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "The Dock door Dock_01 us locked but sensor shows it does not have a trailer attached. Last Truck departed at [R_DepartedTime].",
+    "generatedOn": "2023-01-04T05:18:45.0625892",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 90,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "The Dock door Dock_01 us locked but sensor shows it does not have a trailer attached. Last Truck departed at 2022-12-12T12:00:00+00:00.",
+    "generatedOn": "2023-01-04T05:42:59.8629684",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 91,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "The Dock door Dock_01 us locked but sensor shows it does not have a trailer attached. Last Truck departed at [R_DepartedTime].",
+    "generatedOn": "2023-01-04T10:29:11.6304873",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 92,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "The Dock door Dock_01 us locked but sensor shows it does not have a trailer attached. Last Truck departed at 2022-12-12T02:00:00+00:00.",
+    "generatedOn": "2023-01-04T10:30:39.7224156",
+    "read": false,
+    "readOn": null
+  },
+  {
+    "clientId": 1,
+    "notificationId": 93,
+    "notificationSubject": "Dock Door Locked but No Truck",
+    "notificationMessage": "The Dock door Dock_20 us locked but sensor shows it does not have a trailer attached. Last Truck departed at 2023-01-04T02:00:00+00:00.",
+    "generatedOn": "2023-01-04T10:32:55.9628335",
+    "read": false,
+    "readOn": null
+  }
+]

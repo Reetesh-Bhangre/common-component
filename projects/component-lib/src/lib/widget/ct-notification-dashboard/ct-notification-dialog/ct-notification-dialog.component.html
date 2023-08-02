@@ -1,0 +1,26 @@
+<div class="message-details">
+  <h2 class="dialog-title" mat-dialog-title>{{ messageDetails?.title }}</h2>
+  <mat-dialog-content>
+    <p>{{ messageDetails?.description }}</p>
+  </mat-dialog-content>
+  <div class="dialog-footer">
+    <p>
+      {{ messageDetails?.date | date: 'dd MMM YYYY h:mm a' }}
+      <span class="dot"></span>
+      <span class="tag {{ messageDetails?.severity | lowercase }}">
+        {{ messageDetails?.severity }}
+      </span>
+    </p>
+  </div>
+  <div class="dialog-actions">
+    <span class="tag {{ messageDetails?.source | lowercase }}">
+      {{ messageDetails?.source }}
+    </span>
+    <button class="archive">
+      <i class="fa-solid fa-box-archive"></i> Archive
+    </button>
+    <button class="close" (click)="onCloseClick()">
+      <i class="fa-solid fa-xmark"></i> Close
+    </button>
+  </div>
+</div>

@@ -1,0 +1,162 @@
+/*Non-Material Date Picker CSS*/
+.date-picker {
+  &.non-material {
+    position: relative;
+    label.date-picker-title {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      color: #060d0d;
+    }
+    input.date-input {
+      width: calc(100% - 25px);
+      border: none;
+      background: #fff;
+      padding: 14px 20px 14px 5px;
+      margin: 0;
+      height: 20px;
+      outline: none;
+      border-radius: 0px;
+      border: 2px solid #fff;
+    }
+    i.calendar-icon {
+      position: absolute;
+      right: 5px;
+      top: 35px;
+      color: #060d0d;
+    }
+    ::ng-deep ngx-daterangepicker-material .md-drppicker {
+      margin-top: 2px;
+    }
+    &.mat-form-field-has-error {
+      label.date-picker-title,
+      i.calendar-icon {
+        color: #f44336;
+      }
+      input.date-input {
+        border-color: #f44336;
+        caret-color: #f44336;
+      }
+    }
+  }
+}
+
+::ng-deep mat-form-field {
+  width: 100%;
+  .mat-form-field-wrapper {
+    .mat-form-field-suffix {
+      mat-icon {
+        cursor: pointer;
+      }
+    }
+  }
+  &.dark-theme {
+    .mat-input-element,
+    .date-input,
+    .mat-date-range-input-separator {
+      color: #fff;
+    }
+    label.mat-form-field-label {
+      color: #fff;
+    }
+    .mat-form-field-suffix {
+      mat-datepicker-toggle.mat-datepicker-toggle {
+        color: #fff;
+      }
+      mat-icon {
+        color: #fff;
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
+    .mat-form-field-underline,
+    .mat-form-field-underline .mat-form-field-ripple {
+      background-color: #fff;
+    }
+    mat-hint.mat-hint {
+      color: #fff;
+    }
+    &.mat-focused {
+      label.mat-form-field-label {
+        color: #fff;
+      }
+    }
+  }
+  &.mat-form-field-has-error {
+    .mat-form-field-infix {
+      input.mat-input-element {
+        caret-color: #f44336;
+      }
+      input::placeholder {
+        color: #f44336;
+      }
+    }
+    .mat-form-field-label-wrapper {
+      label.mat-form-field-label {
+        color: #f44336;
+      }
+    }
+    .mat-form-field-underline {
+      background-color: #f44336;
+      .mat-form-field-ripple {
+        color: #f44336;
+        background-color: #f44336;
+      }
+    }
+    .mat-form-field-suffix {
+      i {
+        color: #f44336;
+      }
+    }
+  }
+}
+::ng-deep ngx-daterangepicker-material {
+  .md-drppicker {
+    display: flex;
+    margin-top: 12px;
+    .ranges {
+      background: rgba(204, 204, 204, 0.2);
+      border-radius: 4px;
+      min-width: 150px;
+      ul {
+        li {
+          border-bottom: 1px solid #ccc;
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+    .calendar {
+      position: relative;
+      &.right {
+        &:before {
+          display: none;
+        }
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        right: 0;
+        height: 150px;
+        background: #ccc;
+        width: 1px;
+        top: calc(50% - 75px);
+      }
+    }
+    .buttons {
+      position: absolute;
+      bottom: 2px;
+      right: 4px;
+      .btn {
+        margin: 0 5px;
+        box-shadow: none;
+        line-height: 28px;
+      }
+    }
+  }
+}
+::ng-deep .date-input,
+::ng-deep mat-label {
+  font-size: 14px !important;
+}
